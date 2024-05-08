@@ -1,0 +1,55 @@
+// home team-section scss
+.section-home-team {
+  background: $bg-fill;
+  padding-bottom: 150px;
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 32px;
+  }
+
+  .header {
+    margin-bottom: 106px;
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 54px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 32px;
+    }
+  }
+
+  .team {
+    width: 100%;
+    max-width: 287px;
+
+    @include media-breakpoint-down(sm) {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .media {
+      width: 100%;
+      max-width: 287px;
+    }
+
+    .titile {
+      text-align: center;
+      background: $fill-black-faded;
+      padding: 15px 20px;
+
+      h3 {
+        color: $fill-yellow;
+
+        @include media-breakpoint-down(md) {
+          font-size: 16px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

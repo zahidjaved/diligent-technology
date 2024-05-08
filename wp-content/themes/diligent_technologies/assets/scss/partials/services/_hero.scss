@@ -1,0 +1,52 @@
+// home news-letter section scss
+.hero {
+  background-image: url(../../images/hero-bg.png);
+  padding-bottom: 150px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @include media-breakpoint-down(lg) {
+    padding-bottom: 26px;
+    min-height: 71vh;
+  }
+
+  .fill-bolded {
+    font-size: 167px;
+    font-weight: 600;
+    line-height: 91px;
+    letter-spacing: -1.600000023841858px;
+    color: $fill-yellow;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 100px;
+      line-height: 86px;
+    }
+  }
+  .content {
+    width: 100%;
+    max-width: 714px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 97px;
+      font-weight: 600;
+      line-height: 91px;
+      letter-spacing: -1.600000023841858px;
+      text-align: center;
+      margin-bottom: 53px;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 65px;
+        line-height: 84px;
+      }
+    }
+  }
+}

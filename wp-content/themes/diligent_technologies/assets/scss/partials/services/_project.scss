@@ -1,0 +1,94 @@
+//  project section scss
+.section-project {
+  padding-bottom: 150px;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 32px;
+  }
+
+  .head {
+    width: 100%;
+    max-width: 289px;
+    margin-bottom: 60px;
+    @include media-breakpoint-down(md) {
+      max-width: 544px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .detail {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+
+      @include media-breakpoint-down(lg) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .grid-item {
+        position: relative;
+
+        img {
+          height: 336px;
+          object-fit: fill;
+
+          @include media-breakpoint-down(lg) {
+            object-fit: contain;
+            height: auto;
+          }
+        }
+
+        // &.large {
+        //     grid-column-end: span 2;
+        // }
+
+        .overlay {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          // top: 50%;
+          // left: 50%;
+          // transform: translate(-50%, -50%);
+          background-color: rgba(0, 0, 0, 0.5);
+
+          text-align: center;
+          padding: 128px;
+          display: none;
+
+          p {
+            font-size: 20px;
+            color: $fill-white;
+            text-transform: capitalize;
+          }
+        }
+
+        &:hover {
+          .overlay {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 13px;
+
+    @include media-breakpoint-down(md) {
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .btn-svg {
+      margin-left: 40px;
+    }
+  }
+}

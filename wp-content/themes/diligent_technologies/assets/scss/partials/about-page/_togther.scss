@@ -1,0 +1,63 @@
+// about togther section scss
+.section-togather {
+  background-image: url(../../images/Illustrations.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 32px;
+  }
+
+  .inner {
+    background: $fill-yellow;
+    border-radius: 30px;
+    padding: 42px 80px 31px 80px;
+    @include media-breakpoint-down(lg) {
+      padding: 34px 12px 23px 36px;
+    }
+
+    .head {
+      width: 100%;
+      max-width: 595px;
+
+      h4 {
+        font-family: $font-family-Oswald;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 73px;
+        color: $fill-black-faded;
+        text-transform: uppercase;
+        @include media-breakpoint-down(lg) {
+          font-size: 48px;
+          line-height: 60px;
+          margin-top: 14px;
+        }
+        @include media-breakpoint-down(md) {
+          margin-top: 0px;
+          margin-bottom: 24px;
+          text-align: center;
+        }
+        @include media-breakpoint-down(sm) {
+          font-size: 38px;
+          line-height: 53px;
+        }
+      }
+    }
+
+    .media {
+      width: 100%;
+      max-width: 277px;
+
+      @include media-breakpoint-down(lg) {
+        max-width: 235px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

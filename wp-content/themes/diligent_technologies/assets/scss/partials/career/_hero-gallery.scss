@@ -1,0 +1,145 @@
+// why-us section scss
+.hero-gallery {
+  margin-top: -80px;
+  @include media-breakpoint-down(lg) {
+    margin-top: -6px;
+  }
+
+  .inner {
+    width: 100%;
+    max-width: 946px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    @include media-breakpoint-down(lg) {
+      max-width: 630px;
+    }
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+    }
+
+    .crop-top {
+      position: absolute;
+      width: 100%;
+      max-width: 47px;
+      min-height: 108px;
+      border-radius: 58px 58px 107px 0px;
+      background: $fill-yellow;
+      top: 0;
+      left: 59%;
+      transform: translate(-50%, -50%);
+      @include media-breakpoint-down(lg) {
+        left: 54%;
+      }
+      @include media-breakpoint-down(md) {
+        left: 52%;
+        max-width: 29px;
+        min-height: 65px;
+      }
+      @include media-breakpoint-down(sm) {
+        left: 50%;
+      }
+      @include media-breakpoint-down(xs) {
+        left: 53%;
+        max-width: 22px;
+        min-height: 54px;
+      }
+    }
+
+    .crop-bottom {
+      position: absolute;
+      width: 100%;
+      max-width: 69px;
+      min-height: 158px;
+      border-radius: 98px 0px 58px 58px;
+      background: $fill-yellow;
+      bottom: 59px;
+      left: 48%;
+      @include media-breakpoint-down(lg) {
+        max-width: 55px;
+        min-height: 136px;
+        bottom: 74px;
+        left: 41%;
+      }
+      @include media-breakpoint-down(md) {
+        max-width: 32px;
+        min-height: 87px;
+        bottom: 85px;
+        left: 42%;
+      }
+      @include media-breakpoint-down(sm) {
+        max-width: 28px;
+        min-height: 83px;
+        bottom: 82px;
+        left: 39%;
+      }
+      @include media-breakpoint-down(xs) {
+        max-width: 20px;
+        min-height: 57px;
+        bottom: 64px;
+        left: 45%;
+      }
+    }
+
+    .crop-mid {
+      position: absolute;
+      width: 100%;
+      max-width: 199px;
+      min-height: 108px;
+      border-radius: 65px 0px 78px 65px;
+      background: $fill-yellow;
+      bottom: 64px;
+      left: 21%;
+      opacity: 0.4;
+      @include media-breakpoint-down(lg) {
+        max-width: 163px;
+        min-height: 81px;
+        bottom: 100px;
+        left: 7%;
+      }
+      @include media-breakpoint-down(md) {
+        max-width: 90px;
+        min-height: 41px;
+        bottom: 103px;
+        left: 13%;
+      }
+      @include media-breakpoint-down(sm) {
+        max-width: 88px;
+        min-height: 38px;
+        bottom: 109px;
+        left: 12%;
+      }
+      @include media-breakpoint-down(xs) {
+        max-width: 73px;
+        min-height: 26px;
+        bottom: 61px;
+        left: 15%;
+      }
+    }
+
+    .left-side {
+      width: 100%;
+      max-width: 514px;
+      margin-right: 24px;
+      @include media-breakpoint-down(md) {
+        max-width: 235px;
+      }
+      img {
+        border-radius: 150px 0 150px 150px;
+        border: 1px solid rgb(231, 231, 194);
+      }
+    }
+
+    .right-side {
+      width: 100%;
+      max-width: 408px;
+      @include media-breakpoint-down(md) {
+        max-width: 238px;
+      }
+      img {
+        border-radius: 200px 0 200px 200px;
+        border: 1px solid rgb(231, 231, 194);
+      }
+    }
+  }
+}

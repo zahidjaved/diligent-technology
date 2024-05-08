@@ -1,0 +1,24 @@
+// home -staff-augmentation-section scss
+.section-staff-augmentation {
+  background: $bg-fill;
+  padding-bottom: 150px;
+
+  .header {
+    width: 100%;
+    max-width: 688px;
+
+    h2 {
+      margin-bottom: 90px;
+    }
+  }
+  .documentation {
+    width: 100%;
+    max-width: 458px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    h3 {
+      margin-bottom: 12px;
+    }
+  }
+}

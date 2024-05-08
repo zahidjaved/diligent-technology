@@ -1,0 +1,85 @@
+// team section scss
+.section-team {
+  background-image: url(../../images/Illustrations.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 32px;
+  }
+
+  .head {
+    width: 100%;
+    max-width: 254px;
+    @include media-breakpoint-down(md) {
+      max-width: 362px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-bottom: 92px;
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 63px;
+        margin-top: 29px;
+      }
+    }
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @include media-breakpoint-down(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media-breakpoint-down(sm) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 50px;
+    }
+
+    .box-card {
+      text-align: center;
+
+      .media {
+        width: 100%;
+        max-width: 224px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+
+        @include media-breakpoint-down(sm) {
+          margin: 0 auto;
+          margin-bottom: 30px;
+        }
+      }
+
+      h4 {
+        font-family: $font-family-base;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25px;
+        margin-bottom: 16px;
+        color: $fill-yellow;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-family: $font-family-base;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+      }
+    }
+  }
+}

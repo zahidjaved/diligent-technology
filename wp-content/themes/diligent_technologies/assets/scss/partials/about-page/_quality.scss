@@ -1,0 +1,26 @@
+// section-quality section scss
+.section-quality {
+  padding-bottom: 150px;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 32px;
+  }
+
+  .head {
+    width: 100%;
+    max-width: 431px;
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .media {
+    width: 100%;
+    max-width: 1166px;
+    margin: 0 auto;
+  }
+}

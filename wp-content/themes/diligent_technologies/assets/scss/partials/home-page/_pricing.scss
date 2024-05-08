@@ -1,0 +1,109 @@
+// home pricing section scss
+.section-pricing {
+  background-image: url(../../images/Illustrations.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 32px;
+  }
+
+  .header {
+    width: 100%;
+    max-width: 392px;
+    @include media-breakpoint-down(xl) {
+      max-width: 560px;
+    }
+
+    h2 {
+      margin-bottom: 61px;
+    }
+
+    p {
+      @include media-breakpoint-down(sm) {
+        text-align: center;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      padding-left: 25px;
+      margin-bottom: 60px;
+
+      li {
+        font-family: $font-family-base;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        color: $fill-white-v1;
+      }
+    }
+
+    .outline-btn {
+      @include media-breakpoint-down(sm) {
+        margin: 0 auto;
+      }
+
+      .btn-svg {
+        margin-left: 27px;
+      }
+    }
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-left: 40px;
+    @include media-breakpoint-down(xl) {
+      padding-left: 0px;
+      padding-top: 38px;
+    }
+
+    @include media-breakpoint-down(md) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+      padding: 23px 19px 23px 24px;
+      border: none;
+      background: #131213;
+
+      h4 {
+        font-family: $font-family-base;
+        font-size: 21.1px;
+        font-weight: 600;
+        line-height: 30px;
+        color: $fill-yellow;
+        margin-bottom: 11px;
+      }
+      p {
+        margin-bottom: 24px;
+        @include media-breakpoint-down(sm) {
+          margin-top: 2px;
+        }
+      }
+    }
+
+    .plan {
+      border-top: 1px solid $light-brown-fill;
+      padding-top: 17px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .estimate {
+        p {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}

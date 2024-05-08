@@ -1,0 +1,120 @@
+// contact section scss
+.section-contact {
+  margin-bottom: 150px;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 32px;
+  }
+
+
+  .head {
+    width: 100%;
+    max-width: 185px;
+    margin-bottom: 58px;
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+      margin: 0 auto;
+      margin-top: 61px;
+      margin-bottom: 46px;
+    }
+  }
+  .inner {
+    padding: 70px 54px 60px 54px;
+    background: $footer-bg;
+
+    @include media-breakpoint-down(lg) {
+      padding: 48px 43px 40px 43px;
+    }
+    @include media-breakpoint-down(sm) {
+      padding: 36px 20px 28px 20px;
+    }
+
+    .data-form {
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @include media-breakpoint-down(md) {
+          flex-direction: column;
+        }
+        .fields {
+          width: 32.3%;
+
+          @include media-breakpoint-down(lg) {
+            width: 49.3%;
+          }
+          @include media-breakpoint-down(md) {
+            width: 100%;
+          }
+        }
+      }
+
+      .submit-btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        input[type="submit"] {
+          width: 100%;
+          max-width: 200px;
+          background: $fill-yellow;
+          border-radius: 30px;
+          min-height: 48px;
+          border: none;
+          margin-left: auto;
+        }
+      }
+
+      .full-width {
+        input {
+          padding: 15px 24px;
+          width: 100%;
+          border-radius: 16px;
+          color: #ffffff;
+          margin-bottom: 24px;
+          border: none;
+          background: $field-fill;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      h3 {
+        margin-bottom: 24px;
+        font-weight: 400;
+        color: $fill-white-v1;
+      }
+
+      .field {
+        max-width: 100%;
+      }
+
+      .form-check {
+        margin-bottom: 24px;
+
+        label {
+          font-family: $font-family-base;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          color: $fill-white-v1;
+          margin-left: 12px;
+        }
+
+        input {
+          border: 1px solid rgba(255, 195, 11, 0.27);
+          //   opacity: 0.5;
+          //   background: $field-fill;
+          //   backdrop-filter: blur(30px);
+          width: 100%;
+          max-width: 25px;
+          min-height: 24px;
+        }
+      }
+    }
+  }
+}

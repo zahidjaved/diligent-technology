@@ -1,0 +1,88 @@
+// home news-letter section scss
+.section-news-letter {
+  background: $bg-fill;
+  padding-bottom: 150px;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 45px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 32px;
+  }
+
+  .card {
+    padding: 63px 37px 125px 37px;
+    background: $linear-bg;
+
+    @include media-breakpoint-down(md) {
+      padding: 30px 25px 10px 25px;
+    }
+
+    .header {
+      h2 {
+        margin-bottom: 32px;
+      }
+    }
+    p {
+      @include media-breakpoint-down(sm) {
+        text-align: center;
+      }
+    }
+
+    .news-form {
+      width: 100%;
+      max-width: 693px;
+      margin: 0 auto;
+
+      input {
+        width: 100%;
+        height: 60px;
+        padding: 15px 0px 15px 24px;
+        border-radius: 16px;
+        background: #f9f6e014;
+        margin-bottom: 24px;
+        border: none;
+        color: $fill-white-v1;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .charter-form-btn {
+        width: 100%;
+        max-width: 200px;
+
+        input[type="submit"] {
+          border-radius: 30px;
+          background: $fill-yellow;
+          padding: 4px 50px;
+          font-family: $font-family-base;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 40px;
+          color: $fill-black-faded;
+          margin-top: 35px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background: $fill-grey-dark;
+            color: $fill-white-v1;
+          }
+        }
+      }
+
+      .rounded {
+        margin: 24px 0 0;
+
+        .rounded-5 {
+          padding: 8px 29px;
+          background: #f9f6e014;
+          margin-bottom: 16px;
+          display: inline-block;
+          border-radius: 70px;
+          color: $fill-grey-v2;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+// latest-blogs section scss
+.section-latest {
+  padding-bottom: 90px;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 55px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 46px;
+  }
+
+  .head {
+    width: 100%;
+    max-width: 289px;
+
+    @include media-breakpoint-down(md) {
+      max-width: 516px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-bottom: 62px;
+
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 34px;
+        margin-top: 17px;
+      }
+    }
+  }
+
+  .card {
+    padding: 10px 11px 8px 11px;
+    width: 100%;
+    max-width: 420px;
+    border: 3px solid #2c2a29;
+    margin-bottom: 60px;
+    @include media-breakpoint-down(md) {
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+
+    .media {
+      width: 100%;
+      max-width: 372px;
+      margin: 0 auto;
+      margin-bottom: 18px;
+      img {
+        border-radius: 30px 30px 5px 5px;
+      }
+    }
+
+    .card-date {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 16px;
+      }
+
+      h6 {
+        font-family: $font-family-base;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.86px;
+        color: $fill-white-v1;
+      }
+    }
+    p {
+      margin-bottom: 19px;
+    }
+
+    .read-more {
+      max-width: 100%;
+
+      a {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .read-more-btn {
+    display: flex;
+    justify-content: flex-end;
+
+    @include media-breakpoint-down(md) {
+      justify-content: center;
+    }
+
+    .btn-svg {
+      margin-left: 58px;
+    }
+  }
+}

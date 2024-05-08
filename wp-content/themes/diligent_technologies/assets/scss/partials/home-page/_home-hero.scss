@@ -1,0 +1,122 @@
+// home-hero scss
+.home-hero {
+  background: $bg-fill;
+  min-height: 100vh;
+  padding: 120px 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include media-breakpoint-down(xxl) {
+    padding: 120px 30px;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding: 37px 0px;
+  }
+
+  .left-side {
+    width: 100%;
+    max-width: 722px;
+    padding-top: 60px;
+
+    p {
+      font-size: 18px;
+      line-height: 31px;
+      margin: 39px 0;
+      @include media-breakpoint-down(md) {
+        text-align: center;
+      }
+    }
+
+    .left-btns {
+      width: 100%;
+      max-width: 427px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @include media-breakpoint-down(md) {
+        margin: 0 auto;
+      }
+
+      @include media-breakpoint-down(sm) {
+        flex-direction: column;
+      }
+
+      .bg-fill-btn {
+        max-width: 200px;
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 15px;
+        }
+      }
+
+      .btn-svg {
+        margin-left: 32px;
+      }
+    }
+  }
+
+  .right-side {
+    width: 100%;
+    max-width: 384px;
+    margin-left: auto;
+
+    @include media-breakpoint-down(lg) {
+      margin-left: unset;
+      margin-top: 20px;
+      max-width: 706px;
+    }
+
+    @include media-breakpoint-down(md) {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+
+    .card {
+      padding: 24px 32px 24px 32px;
+      background: transparent;
+
+      h3 {
+        line-height: 31px;
+        margin-bottom: 15px;
+      }
+
+      label {
+        color: $fill-white;
+        font-family: $font-family-base;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 7px;
+      }
+      input,
+      textarea {
+        padding: 8px 12px;
+        width: 100%;
+        border-radius: 15px;
+        color: $fill-white;
+        margin-bottom: 14px;
+        border: 1px solid rgba(255, 195, 11, 0.27);
+        opacity: 0.5;
+        background: linear-gradient(
+          109deg,
+          rgba(255, 255, 255, 0.15) 1.57%,
+          rgba(255, 255, 255, 0.06) 100%
+        );
+        backdrop-filter: blur(30px);
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      input[type="submit"] {
+        background: $fill-yellow;
+        color: $fill-grey-dark;
+        height: 48px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
