@@ -4,9 +4,7 @@
         <div class="content">
             <marquee class="marq" behavior="scroll" direction="left" scrollamount="10">
                 <p>
-                    <span class="mx-5">Diligent Technologies provide development and design resources globally.</span>
-                    <span class="mx-5">My goal is to help people by making their lives easier, faster, and more
-                        efficient. Diligent Technologies provide development and design resources globally.</span>
+                    Diligent Technologies provide development and design resources globally.
                 </p>
             </marquee>
         </div>

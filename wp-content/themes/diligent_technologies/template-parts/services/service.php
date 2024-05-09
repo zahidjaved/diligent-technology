@@ -14,8 +14,6 @@
                 <div class="card">
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/mac.PNG'?>" alt="img">
                     </div>
@@ -26,8 +24,6 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
                     <div class="media">
@@ -42,8 +38,6 @@
                 <div class="card">
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/mac.PNG'?>" alt="img">
                     </div>
@@ -54,8 +48,6 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
                     <div class="media">
@@ -71,8 +63,6 @@
                 <div class="card">
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/mac.PNG'?>" alt="img">
                     </div>
@@ -84,8 +74,6 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
                     <div class="media">

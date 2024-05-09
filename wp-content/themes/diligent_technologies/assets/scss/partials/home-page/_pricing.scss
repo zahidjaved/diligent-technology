@@ -75,6 +75,19 @@
       padding: 23px 19px 23px 24px;
       border: none;
       background: #131213;
+      transition: all 0.4s ease-in-out;
+
+      &:hover{
+        background: $fill-yellow;
+        color: $fill-black-faded;
+
+        h4,p{
+          color: $fill-black-faded;
+        }
+        .yellow-fill{
+          color: $fill-black-faded;
+        }
+      }
 
       h4 {
         font-family: $font-family-base;

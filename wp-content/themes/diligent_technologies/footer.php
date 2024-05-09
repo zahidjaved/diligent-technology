@@ -102,7 +102,7 @@
             <div class="col-sm-12 col-md-6 col-lg-5 col-xxl-5">
                 <div class="cop-write">
                     <h4>ASIA</h4>
-                    <p>3-I, 2nd Floor, Block 3, Business Bay, Phase 7, Bahria Town, Islamabad, Pakistan/p>
+                    <p>3-I, 2nd Floor, Block 3, Business Bay, Phase 7, Bahria Town, Islamabad, Pakistan</p>
                 </div>
             </div>
         </div>

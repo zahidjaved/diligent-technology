@@ -65,8 +65,9 @@
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            background: $fill-grey-dark;
-            color: $fill-white-v1;
+            background: $fill-black-faded;
+            color: $fill-yellow;
+            border: 1px solid $fill-yellow;
           }
         }
       }

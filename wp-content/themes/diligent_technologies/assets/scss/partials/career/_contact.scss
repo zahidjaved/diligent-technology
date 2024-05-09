@@ -9,7 +9,6 @@
     margin-bottom: 32px;
   }
 
-
   .head {
     width: 100%;
     max-width: 185px;
@@ -66,6 +65,13 @@
           min-height: 48px;
           border: none;
           margin-left: auto;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background: $fill-black-faded;
+            color: $fill-yellow;
+            border: 1px solid $fill-yellow;
+          }
         }
       }
 

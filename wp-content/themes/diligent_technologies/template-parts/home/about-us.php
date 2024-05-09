@@ -14,8 +14,8 @@
                 <div class="card">
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+
+
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/Vector-people.svg'?>" alt="img">
                     </div>
@@ -28,8 +28,7 @@
                 <div class="card">
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/Vector-team.svg'?>" alt="img">
                     </div>
@@ -42,8 +41,7 @@
                 <div class="card">
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/Vector-workspace.svg'?>" alt="img">
                     </div>
@@ -56,8 +54,7 @@
                 <div class="card">
                     <span class="animatedd"> </span>
                     <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/Vector-services.svg'?>" alt="img">
                     </div>

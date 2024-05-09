@@ -93,8 +93,8 @@ p {
 
   &:hover {
     background: $fill-black-faded;
-    color: $fill-white;
-    border: 1px solid #6d6d6e;
+    color: $fill-yellow;
+    border: 1px solid $fill-yellow;
   }
 }
 
@@ -108,7 +108,7 @@ p {
   text-align: center;
   justify-content: end;
   align-items: center;
-  height: 48px;
+  height: 49px;
   width: 100%;
   max-width: 200px;
   color: $fill-white;
