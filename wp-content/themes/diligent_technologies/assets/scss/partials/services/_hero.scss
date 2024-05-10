@@ -28,7 +28,7 @@
   }
   .content {
     width: 100%;
-    max-width: 714px;
+    max-width: 661px;
     margin: 0 auto;
     text-align: center;
 
@@ -36,16 +36,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 97px;
-      font-weight: 600;
-      line-height: 91px;
-      letter-spacing: -1.600000023841858px;
+      @include h1;
+      @include font-format(97px, 91px);
       text-align: center;
       margin-bottom: 53px;
 
       @include media-breakpoint-down(sm) {
-        font-size: 65px;
-        line-height: 84px;
+        @include font-format(65px, 84px);
       }
     }
   }

@@ -18,18 +18,21 @@
       padding: 30px 25px 10px 25px;
     }
 
-    .header {
+    .news-letter-header {
       h2 {
         margin-bottom: 32px;
       }
     }
-    p {
-      @include media-breakpoint-down(sm) {
-        text-align: center;
+
+    .description {
+      p {
+        @include media-breakpoint-down(sm) {
+          text-align: center;
+        }
       }
     }
 
-    .news-form {
+    .news-letter-form {
       width: 100%;
       max-width: 693px;
       margin: 0 auto;
@@ -72,16 +75,21 @@
         }
       }
 
-      .rounded {
+      .news-letter-pills {
         margin: 24px 0 0;
 
-        .rounded-5 {
-          padding: 8px 29px;
+        .news-letter-pill {
+          padding: 3px 29px;
           background: #f9f6e014;
           margin-bottom: 16px;
           display: inline-block;
-          border-radius: 70px;
           color: $fill-grey-v2;
+          p {
+            @include paragraph;
+            @include font-format(15px, 11px);
+            font-weight: 500;
+            margin-top: 12px;
+          }
         }
       }
     }

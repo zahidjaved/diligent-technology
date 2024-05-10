@@ -3,60 +3,67 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="head">
+                <div class="project-heading">
                     <h2>Our
                         recent
                         <span class="yellow-fill">Projects</span>
                     </h2>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 col-xxl-8">
+            <div class="col-md-8">
                 <div class="boxx">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/sea.PNG'?>" alt="img">
                         <div class="overlay">
-                            <p>view more</p>
+                            <div class="description">
+                                <p>view more</p>
+                            </div>
                         </div>
                     </a>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xxl-4">
+            <div class="col-md-4">
                 <div class="boxx">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/dashboad.PNG'?>" alt="img">
                         <div class="overlay">
-                            <p>view more</p>
+                            <div class="description">
+                                <p>view more</p>
+                            </div>
                         </div>
                     </a>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-6">
+            <div class="col-md-6 ">
                 <div class="boxx">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/AI.PNG'?>" alt="img">
                         <div class="overlay">
-                            <p>view more</p>
+                            <div class="description">
+                                <p>view more</p>
+                            </div>
                         </div>
                     </a>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-6">
+            <div class="col-md-6">
                 <div class="boxx">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/uae.PNG'?>" alt="img">
                         <div class="overlay">
-                            <p>view more</p>
+                            <div class="description">
+                                <p>view more</p>
+                            </div>
                         </div>
                     </a>
                 </div>
             </div>
-
             <div class="col-12">
-                <div class="more-btn">
-                    <a class="outline-btn" href="">See More<span class="btn-svg"><svg xmlns="http://www.w3.org/2000/svg"
+                <div class="project-cta-btn">
+                    <a class="cta-btn" href="">See More<span class="btn-svg"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="37" height="36" viewBox="0 0 37 36" fill="none">
 
                                 <g clip-path="url(#clip0_599_1367)">

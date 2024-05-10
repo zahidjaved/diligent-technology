@@ -13,7 +13,7 @@
     padding-bottom: 32px;
   }
 
-  .head {
+  .team-heading {
     width: 100%;
     max-width: 254px;
     @include media-breakpoint-down(md) {
@@ -37,10 +37,6 @@
     @include media-breakpoint-down(lg) {
       grid-template-columns: repeat(3, 1fr);
     }
-
-    @include media-breakpoint-down(lg) {
-      grid-template-columns: repeat(3, 1fr);
-    }
     @include media-breakpoint-down(md) {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -49,7 +45,7 @@
       gap: 50px;
     }
 
-    .box-card {
+    .team-card {
       text-align: center;
 
       .media {
@@ -74,11 +70,11 @@
         text-transform: uppercase;
       }
 
-      p {
-        font-family: $font-family-base;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 25px;
+      .description {
+        p {
+          @include p;
+          @include font-format(14px, 25px);
+        }
       }
     }
   }

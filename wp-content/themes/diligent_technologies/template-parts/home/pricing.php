@@ -2,24 +2,25 @@
 <section class="section-pricing">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4">
-                <div class="header">
+            <div class=" col-xl-4">
+                <div class="pricing-heading">
                     <h2>Check
                         <span class="blocked">our</span>
                         <span class="yellow-fill">pricings Plan</span>
                     </h2>
-
-                    <p>We bring you a simple alternative to experienced yet costly hires who don’t always match your
-                        work hours. 
-                        <span class="blocked">
-                            All packages come with:
-                        </span>
-                    </p>
+                    <div class="description">
+                        <p>We bring you a simple alternative to experienced yet costly hires who don’t always match your
+                            work hours. 
+                            <span class="blocked">
+                                All packages come with:
+                            </span>
+                        </p>
+                    </div>
                     <ul>
                         <li>One to many fully dedicated resource(s)</li>
                         <li>A Project Manager to oversee the assignment. </li>
                     </ul>
-                    <a class="outline-btn" href="">Get Started <span class="btn-svg"><svg
+                    <a class="hero-cta-icon" href="">Get Started <span class="btn-svg"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36"
                                 fill="none">
                                 <g clip-path="url(#clip0_599_1367)">
@@ -35,15 +36,17 @@
                             </svg></span></a>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 col-xxl-8">
+            <div class="col-xl-8">
                 <div class="wrapper">
                     <!-- 1st card -->
                     <div class="card">
                         <h4>Full stack</h4>
-                        <p>Our team of experienced developers is dedicated to delivering high-quality web development
-                            services that meet the unique requirements .</p>
-                        <div class="plan">
+                        <div class="description">
+                            <p>Our team of experienced developers is dedicated to delivering high-quality web
+                                development
+                                services that meet the unique requirements .</p>
+                        </div>
+                        <div class="pricing-plan">
                             <div class="estimate">
                                 <p>Estimated time</p>
                                 <p>Price</p>
@@ -57,14 +60,17 @@
                     <!-- 2nd card -->
                     <div class="card">
                         <h4>Full stack</h4>
-                        <p>Our team of experienced developers is dedicated to delivering high-quality web development
-                            services that meet the unique requirements .</p>
-                        <div class="plan">
-                            <div class="estimate">
+                        <div class="description">
+                            <p>Our team of experienced developers is dedicated to delivering high-quality web
+                                development
+                                services that meet the unique requirements .</p>
+                        </div>
+                        <div class="pricing-plan">
+                            <div class="pricing-estimate">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="estimate">
+                            <div class="pricing-estimate">
                                 <p><span class="yellow-fill">1 week</span></p>
                                 <p><span class="yellow-fill">$1,500</span></p>
                             </div>
@@ -73,14 +79,17 @@
                     <!-- 3rd card -->
                     <div class="card">
                         <h4>Full stack</h4>
-                        <p>Our team of experienced developers is dedicated to delivering high-quality web development
-                            services that meet the unique requirements .</p>
-                        <div class="plan">
-                            <div class="estimate">
+                        <div class="description">
+                            <p>Our team of experienced developers is dedicated to delivering high-quality web
+                                development
+                                services that meet the unique requirements .</p>
+                        </div>
+                        <div class="pricing-plan">
+                            <div class="pricing-estimate">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="estimate">
+                            <div class="pricing-estimate">
                                 <p><span class="yellow-fill">1 week</span></p>
                                 <p><span class="yellow-fill">$1,500</span></p>
                             </div>
@@ -89,14 +98,17 @@
                     <!-- fourth card -->
                     <div class="card">
                         <h4>Full stack</h4>
-                        <p>Our team of experienced developers is dedicated to delivering high-quality web development
-                            services that meet the unique requirements .</p>
-                        <div class="plan">
-                            <div class="estimate">
+                        <div class="description">
+                            <p>Our team of experienced developers is dedicated to delivering high-quality web
+                                development
+                                services that meet the unique requirements .</p>
+                        </div>
+                        <div class="pricing-plan">
+                            <div class="pricing-estimate">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="estimate">
+                            <div class="pricing-estimate">
                                 <p><span class="yellow-fill">1 week</span></p>
                                 <p><span class="yellow-fill">$1,500</span></p>
                             </div>
@@ -105,14 +117,17 @@
                     <!-- fifth card -->
                     <div class="card">
                         <h4>Full stack</h4>
-                        <p>Our team of experienced developers is dedicated to delivering high-quality web development
-                            services that meet the unique requirements .</p>
-                        <div class="plan">
-                            <div class="estimate">
+                        <div class="description">
+                            <p>Our team of experienced developers is dedicated to delivering high-quality web
+                                development
+                                services that meet the unique requirements .</p>
+                        </div>
+                        <div class="pricing-plan">
+                            <div class="pricing-estimate">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="estimate">
+                            <div class="pricing-estimate">
                                 <p><span class="yellow-fill">1 week</span></p>
                                 <p><span class="yellow-fill">$1,500</span></p>
                             </div>
@@ -121,14 +136,17 @@
                     <!-- sixth card -->
                     <div class="card">
                         <h4>Full stack</h4>
-                        <p>Our team of experienced developers is dedicated to delivering high-quality web development
-                            services that meet the unique requirements .</p>
-                        <div class="plan">
-                            <div class="estimate">
+                        <div class="description">
+                            <p>Our team of experienced developers is dedicated to delivering high-quality web
+                                development
+                                services that meet the unique requirements .</p>
+                        </div>
+                        <div class="pricing-plan">
+                            <div class="pricing-estimate">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="estimate">
+                            <div class="pricing-estimate">
                                 <p><span class="yellow-fill">1 week</span></p>
                                 <p><span class="yellow-fill">$1,500</span></p>
                             </div>

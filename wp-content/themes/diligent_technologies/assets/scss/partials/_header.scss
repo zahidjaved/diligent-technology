@@ -291,7 +291,7 @@
     }
 
     .bg-fill-btn{
-        max-width: 122px;
+        @include site-btn($fill-yellow, 122px, $fill-grey-dark);
     }
   }
 }

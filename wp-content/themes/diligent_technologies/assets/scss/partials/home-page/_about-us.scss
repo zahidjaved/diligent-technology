@@ -3,7 +3,6 @@
   background: $bg-fill;
   padding-bottom: 150px;
 
-  
   @include media-breakpoint-down(md) {
     padding-bottom: 45px;
   }
@@ -12,7 +11,7 @@
     padding-bottom: 32px;
   }
 
-  .header {
+  .about-us-heading {
     width: 100%;
     max-width: 851px;
     margin-bottom: 97px;
@@ -29,9 +28,7 @@
   }
 
   .card {
-    // height: 100%;
     margin-bottom: 24px;
-
     .media {
       width: 100%;
       max-width: 54px;
@@ -43,11 +40,13 @@
       }
     }
 
+   .description{
     p {
       @include media-breakpoint-down(sm) {
         margin: 11px 0;
       }
     }
+   }
 
     h3 {
       margin-bottom: 10px;

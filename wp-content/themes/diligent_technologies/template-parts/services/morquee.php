@@ -3,9 +3,10 @@
     <div class="container">
         <div class="content">
             <marquee class="marq" behavior="scroll" direction="left" scrollamount="10">
-                <p>
-                    Diligent Technologies provide development and design resources globally.
-                </p>
+                <div class="description">
+                    <h3>
+                        Diligent Technologies provide development and design resources globally.
+                    </h3>
             </marquee>
         </div>
     </div>

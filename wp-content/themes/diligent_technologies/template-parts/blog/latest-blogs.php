@@ -3,20 +3,19 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="head">
+                <div class="latest-blog-heading">
                     <h2><span class="blocked">Check</span>
                         Our latest
                         <span class="yellow-fill"> blog posts</span>
                     </h2>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/blogss.PNG'?>" alt="img">
                     </div>
@@ -24,23 +23,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/fingers.PNG'?>" alt="img">
                     </div>
@@ -48,23 +50,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/designn.PNG'?>" alt="img">
                     </div>
@@ -72,23 +77,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/crack.PNG'?>" alt="img">
                     </div>
@@ -96,23 +104,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/mavfk.PNG'?>" alt="img">
                     </div>
@@ -120,23 +131,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/touch.PNG'?>" alt="img">
                     </div>
@@ -144,23 +158,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/designn.PNG'?>" alt="img">
                     </div>
@@ -168,23 +185,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/crack.PNG'?>" alt="img">
                     </div>
@@ -192,23 +212,26 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xxl-4">
+            <div class="col-md-6 col-xxl-4">
                 <div class="card">
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
-                    <span class="animatedd"> </span>
+                <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
+                    <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/fingers.PNG'?>" alt="img">
                     </div>
@@ -216,20 +239,23 @@
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
-                    <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
-                        driving force shaping our present and future. From automating routine tasks to powering complex
-                        decision-making processes.
-                        In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize investments,
-                        and personalize financial services for customers.</p>
-                    <div class="read-more">
-                        <a class="bg-fill-btn" href="">Read More</a>
+                    <div class="description">
+                        <p>Artificial Intelligence (AI) is no longer a concept relegated to science fiction; it's now a
+                            driving force shaping our present and future. From automating routine tasks to powering
+                            complex
+                            decision-making processes.
+                            In finance, AI algorithms analyze vast amounts of data to detect fraud, optimize
+                            investments,
+                            and personalize financial services for customers.</p>
+                    </div>
+                    <div class="card-cta-btn">
+                        <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
-
             <div class="col-12">
-                <div class="read-more-btn">
-                    <a class="outline-btn" href="">See More<span class="btn-svg"><svg xmlns="http://www.w3.org/2000/svg"
+                <div class="read-more-cta-btn">
+                    <a class="view-more-cta" href="">See More<span class="btn-svg"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="37" height="36" viewBox="0 0 37 36" fill="none">
 
                                 <g clip-path="url(#clip0_599_1367)">
@@ -245,7 +271,6 @@
                             </svg></span></a>
                 </div>
             </div>
-
         </div>
     </div>
 </section>

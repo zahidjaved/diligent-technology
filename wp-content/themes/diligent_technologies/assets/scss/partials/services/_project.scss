@@ -9,7 +9,7 @@
     padding-bottom: 32px;
   }
 
-  .head {
+  .project-heading {
     width: 100%;
     max-width: 289px;
     margin-bottom: 60px;
@@ -52,19 +52,20 @@
     }
   }
 
-  .more-btn {
+  .project-cta-btn {
     display: flex;
     align-items: center;
     justify-content: end;
     margin-top: 13px;
-
     @include media-breakpoint-down(md) {
       justify-content: center;
       margin-top: 16px;
     }
-
-    .btn-svg {
-      margin-left: 57px;
+    .cta-btn {
+      @include site-btn(transparent, 217px, $fill-white);
+      .btn-svg {
+        margin-left: 57px;
+      }
     }
   }
 }

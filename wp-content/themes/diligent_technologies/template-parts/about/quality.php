@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="head">
+                <div class="quality-heading">
                     <h2>We Deliver
                         Quality Services
                         <span class="yellow-fill">Globally</span>

@@ -45,18 +45,19 @@
             </div>
         </div>
     </div> -->
-
     <div class="container card">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-5 col-xxl-5">
+            <div class="col-lg-5 ">
                 <div class="media">
                     <img src="<?php echo get_template_directory_uri() . '/images/footer-logo.PNG'?>" alt="img">
-                    <p>Among the most trusted staff augmentation companies to provide you with unrivaled IT and software
-                        development services. Work with anyone, from anywhere, at any time.</p>
+                    <div class="description">
+                        <p>Among the most trusted staff augmentation companies to provide you with unrivaled IT and
+                            software
+                            development services. Work with anyone, from anywhere, at any time.</p>
+                    </div>
                 </div>
-
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4">
+            <div class="col-md-6 col-lg-4 ">
                 <div class="links">
                     <ul>
                         <li><a href="">Menu</a></li>
@@ -67,9 +68,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 col-xxl-3">
-                <div class="request">
-                    <a class="outline-btn" href="">Request a Call<span class="btn-svg"><svg
+            <div class="col-md-6 col-lg-3 ">
+                <div class="footer-cta-btn">
+                    <a class="cta-btn" href="">Request a Call<span class="btn-svg"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36"
                                 fill="none">
 
@@ -92,17 +93,20 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4">
-                <div class="cop-write">
+            <div class=" col-md-6 col-lg-4 ">
+                <div class="footer-address">
                     <h4>USA</h4>
-                    <p>10105 E Via Linda Ste 103 #164 Scottsdale, AZ 85258</p>
+                    <div class="description">
+                        <p>10105 E Via Linda Ste 103 #164 Scottsdale, AZ 85258</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-5 col-xxl-5">
-                <div class="cop-write">
+            <div class=" col-md-6 col-lg-5">
+                <div class="footer-address">
                     <h4>ASIA</h4>
-                    <p>3-I, 2nd Floor, Block 3, Business Bay, Phase 7, Bahria Town, Islamabad, Pakistan</p>
+                    <div class="description">
+                        <p>3-I, 2nd Floor, Block 3, Business Bay, Phase 7, Bahria Town, Islamabad, Pakistan</p>
+                    </div>
                 </div>
             </div>
         </div>

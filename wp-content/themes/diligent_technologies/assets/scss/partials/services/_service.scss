@@ -13,7 +13,7 @@
     padding-bottom: 32px;
   }
 
-  .head {
+  .services-heading {
     width: 100%;
     max-width: 328px;
     margin-bottom: 60px;
@@ -31,6 +31,8 @@
 
     @include media-breakpoint-down(xl) {
       padding: 42px 16px 31px 36px;
+    }
+    @include media-breakpoint-down(md) {
       min-height: auto;
     }
 
@@ -44,9 +46,11 @@
       margin-bottom: 12px;
     }
 
-    p {
-      @include media-breakpoint-down(sm) {
-        margin: 6px 0;
+    .description {
+      p {
+        @include media-breakpoint-down(sm) {
+          margin: 6px 0;
+        }
       }
     }
   }

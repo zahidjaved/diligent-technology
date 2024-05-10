@@ -1,22 +1,10 @@
 // home-hero scss
 .home-hero {
-  // background: url(../../images/Top.svg) no-repeat top center,
-  //   url(../../images/Top.svg) no-repeat bottom center;
-
   min-height: 100vh;
   padding: 120px 145px;
   display: flex;
   align-items: center;
   justify-content: center;
-  // position: relative;
-
-  // .top-svg{
-  //   position: absolute;
-  //   z-index: -2;
-  //   width: 100%;
-  //   max-width: 100%;
-  //   top: -240px;
-  // }
 
   @include media-breakpoint-down(xxl) {
     padding: 120px 30px;
@@ -26,21 +14,23 @@
     padding: 37px 0px;
   }
 
-  .left-side {
+  .hero-text {
     width: 100%;
     max-width: 722px;
     padding-top: 60px;
 
-    p {
-      font-size: 18px;
-      line-height: 31px;
-      margin: 39px 0;
-      @include media-breakpoint-down(md) {
-        text-align: center;
+    .hero-description {
+      p {
+        @include paragraph;
+        @include font-format(18px, 31px);
+        margin: 39px 0;
+        @include media-breakpoint-down(md) {
+          text-align: center;
+        }
       }
     }
 
-    .left-btns {
+    .hero-cta-btns {
       width: 100%;
       max-width: 427px;
       display: flex;
@@ -54,20 +44,19 @@
         flex-direction: column;
       }
 
-      .bg-fill-btn {
-        max-width: 200px;
+      .hero-cta-btn {
+        @include site-btn($fill-yellow, 200px, $fill-grey-dark);
         @include media-breakpoint-down(sm) {
           margin-bottom: 15px;
         }
       }
-
       .btn-svg {
         margin-left: 32px;
       }
     }
   }
 
-  .right-side {
+  .hero-form {
     width: 100%;
     max-width: 384px;
     margin-left: auto;
@@ -88,58 +77,59 @@
       background: transparent;
 
       h3 {
-        line-height: 31px;
-        margin-bottom: 15px;
+        @include h3;
+        @include font-format(22px, 33px);
       }
 
-      label {
-        color: $fill-white;
-        font-family: $font-family-base;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-bottom: 7px;
-      }
-      input,
-      textarea {
-        padding: 8px 12px;
-        width: 100%;
-        border-radius: 15px;
-        color: $fill-white;
-        margin-bottom: 14px;
-        border: 1px solid rgba(255, 195, 11, 0.27);
-        opacity: 0.5;
-        background: linear-gradient(
-          109deg,
-          rgba(255, 255, 255, 0.15) 1.57%,
-          rgba(255, 255, 255, 0.06) 100%
-        );
-        backdrop-filter: blur(30px);
-
-        &:focus {
-          outline: none;
+      .hero-news-letter-form {
+        label {
+          color: $fill-white;
+          font-family: $font-family-base;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-bottom: 7px;
         }
-      }
+        input,
+        textarea {
+          padding: 8px 12px;
+          width: 100%;
+          border-radius: 15px;
+          color: $fill-white;
+          margin-bottom: 14px;
+          border: 1px solid $border-filll;
+          opacity: 0.5;
+          background: linear-gradient(
+            109deg,
+            rgba(255, 255, 255, 0.15) 1.57%,
+            rgba(255, 255, 255, 0.06) 100%
+          );
+          backdrop-filter: blur(30px);
 
-      input[type="submit"] {
-        background: $fill-yellow;
-        color: $fill-grey-dark;
-        height: 48px;
-        margin-top: 10px;
-        opacity: 1;
-        font-family: $font-family-base;
-        font-size: 16px;
-        font-weight: $fw-medium;
-        line-height: 24px;
-        color: $fill-black-faded;
+          &:focus {
+            outline: none;
+          }
+        }
 
-        
-  &:hover {
-    background: $fill-black-faded;
-    color: $fill-yellow;;
-    border: 1px solid $fill-yellow;
-  }
+        input[type="submit"] {
+          background: $fill-yellow;
+          color: $fill-grey-dark;
+          height: 48px;
+          margin-top: 10px;
+          opacity: 1;
+          font-family: $font-family-base;
+          font-size: 16px;
+          font-weight: $fw-medium;
+          line-height: 24px;
+          color: $fill-black-faded;
+
+          &:hover {
+            background: $fill-black-faded;
+            color: $fill-yellow;
+            border: 1px solid $fill-yellow;
+          }
+        }
       }
     }
   }

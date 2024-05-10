@@ -3,11 +3,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="header">
+                <div class="team-heading">
                     <h2>Multiply your <span class="yellow-fill">team’s output</span></h2>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xxl-3">
+            <div class="col-sm-6  col-lg-3 ">
                 <div class="team">
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/developer.PNG'?>" alt="img">
@@ -16,12 +16,8 @@
                         <h3>Software Developers</h3>
                     </div>
                 </div>
-
-
-
-
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xxl-3">
+            <div class="col-sm-6  col-lg-3 ">
                 <div class="team">
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/manager.PNG'?>" alt="img">
@@ -35,7 +31,7 @@
 
 
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xxl-3">
+            <div class="col-sm-6 col-lg-3 ">
                 <div class="team">
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/developer.PNG'?>" alt="img">
@@ -45,11 +41,8 @@
                     </div>
                 </div>
 
-
-
-
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3 col-xxl-3">
+            <div class="col-sm-6 col-lg-3 ">
                 <div class="team">
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/manager.PNG'?>" alt="img">

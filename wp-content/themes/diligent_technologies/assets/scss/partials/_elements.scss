@@ -6,7 +6,9 @@ body {
   @include global-font;
   background: $bg-fill;
 }
-
+img {
+  width: 100%;
+}
 a {
   @include transition-standard;
   color: $body-color;
@@ -145,3 +147,148 @@ h5 {
   }
 }
 // swiper nav__btn ends
+
+// diligent site global elements
+// all diligent element optimize scss
+
+h1 {
+  @include h1;
+  letter-spacing: -1.6px;
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  @include h3;
+}
+h4 {
+  @include h4;
+  @include font-format(21px, 30px);
+}
+
+p {
+  @include p;
+}
+
+.bg-fill-btn {
+  @include site-btn(yellow, 200px, $fill-grey-dark);
+}
+
+.hero-cta-icon {
+  @include site-btn(transparent, 200px, $fill-white);
+}
+
+.yellow-fill {
+  color: $brand-primary;
+}
+
+.blocked {
+  display: block;
+
+  @include media-breakpoint-down(md) {
+    display: inline-block;
+  }
+}
+
+.mark {
+  display: inline-block;
+  width: 100%;
+  max-width: 24px;
+  height: 100%;
+  background: #151515;
+}
+
+.card {
+  background: #1e1e1e;
+  border-color: #2c2a29;
+  border-radius: 30px;
+  padding: 41px 67px 30px 67px;
+  position: relative;
+  overflow: hidden;
+
+  .border-animation-card:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #171618, $border-filll);
+    animation: animate1 3s linear infinite;
+  }
+
+  @keyframes animate1 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .border-animation-card:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(to bottom, #171618, $border-filll);
+    animation: animate2 3s linear infinite;
+    animation-delay: 1s;
+  }
+  @keyframes animate2 {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+
+  .border-animation-card:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, #171618, $border-filll);
+    animation: animate3 3s linear infinite;
+  }
+
+  @keyframes animate3 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .border-animation-card:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(to top, #171618, $border-filll);
+    animation: animate4 3s linear infinite;
+    animation-delay: 1s;
+  }
+
+  @keyframes animate4 {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 34px 28px 21px 32px;
+  }
+}

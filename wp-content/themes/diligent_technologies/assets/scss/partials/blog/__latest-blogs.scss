@@ -9,7 +9,7 @@
     padding-bottom: 46px;
   }
 
-  .head {
+  .latest-blog-heading {
     width: 100%;
     max-width: 289px;
 
@@ -69,20 +69,22 @@
         color: $fill-white-v1;
       }
     }
-    p {
-      margin-bottom: 19px;
+    .description {
+      p {
+        margin-bottom: 19px;
+      }
     }
 
-    .read-more {
+    .card-cta-btn {
       max-width: 100%;
 
-      a {
-        max-width: 100%;
+      .post-cta {
+        @include site-btn(yellow, 100%, $fill-grey-dark);
       }
     }
   }
 
-  .read-more-btn {
+  .read-more-cta-btn {
     display: flex;
     justify-content: flex-end;
 
@@ -90,8 +92,11 @@
       justify-content: center;
     }
 
-    .btn-svg {
-      margin-left: 58px;
+    .view-more-cta {
+      @include site-btn(transparent, 200px, $fill-white);
+      .btn-svg {
+        margin-left: 58px;
+      }
     }
   }
 }

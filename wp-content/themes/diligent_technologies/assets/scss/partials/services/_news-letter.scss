@@ -27,7 +27,7 @@
       padding: 34px 20px 39px 20px;
     }
 
-    .description {
+    .contact-description {
       width: 100%;
       max-width: 723px;
       @include media-breakpoint-down(xl) {
@@ -42,40 +42,35 @@
       }
 
       h2 {
-        font-family: $font-family-Oswald;
-        font-size: 70px;
-        font-weight: 600;
-        line-height: 73px;
+        @include h2;
+        @include font-format(70px, 73px);
         margin-bottom: 19px;
         color: $fill-yellow;
-
         @include media-breakpoint-down(xl) {
-          font-size: 42px;
-          line-height: 69px;
+          @include font-format(42px, 69px);
         }
         @include media-breakpoint-down(sm) {
-          font-size: 35px;
-          line-height: 54px;
+          @include font-format(35px, 54px);
         }
       }
 
-      p {
-        @include media-breakpoint-down(md) {
-          text-align: center;
+      .description {
+        p {
+          @include media-breakpoint-down(md) {
+            text-align: center;
+          }
         }
       }
     }
-
-    .contact-btn {
+    .contact-cta {
       width: 100%;
       max-width: 170px;
       @include media-breakpoint-down(md) {
         text-align: -webkit-center;
         max-width: 100%;
       }
-
-      .bg-fill-btn {
-        max-width: 159px;
+      .cta-btn {
+        @include site-btn($fill-yellow, 159px, $fill-grey-dark);
       }
     }
   }
