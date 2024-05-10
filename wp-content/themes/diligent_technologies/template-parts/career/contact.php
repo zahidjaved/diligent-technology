@@ -2,7 +2,7 @@
 <section class="section-contact">
     <div class="container">
         <div class="col-12">
-            <div class="head">
+            <div class="contact-heading">
                 <h2>
                     Send
                     Your
@@ -11,15 +11,14 @@
             </div>
         </div>
         <div class="inner card">
-            <span class="animatedd"> </span>
-            <span class="animatedd"> </span>
-            <span class="animatedd"> </span>
-            <span class="animatedd"> </span>
+            <span class="border-animation-card"> </span>
+            <span class="border-animation-card"> </span>
+            <span class="border-animation-card"> </span>
+            <span class="border-animation-card"> </span>
             <div class="row">
                 <div class="col-12">
                     <div class="data-form">
                         <from action="#">
-
                             <div class="wrapper full-width">
                                 <div class="fields ">
                                     <input type="text" name="name" placeholder="Full name" required="">

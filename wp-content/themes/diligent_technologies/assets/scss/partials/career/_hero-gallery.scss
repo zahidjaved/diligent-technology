@@ -18,7 +18,7 @@
       max-width: 100%;
     }
 
-    .crop-top {
+    .drop-shape-one {
       position: absolute;
       width: 100%;
       max-width: 47px;
@@ -46,7 +46,7 @@
       }
     }
 
-    .crop-bottom {
+    .drop-shape-three {
       position: absolute;
       width: 100%;
       max-width: 69px;
@@ -81,7 +81,7 @@
       }
     }
 
-    .crop-mid {
+    .drop-shape-two {
       position: absolute;
       width: 100%;
       max-width: 199px;
@@ -117,7 +117,7 @@
       }
     }
 
-    .left-side {
+    .sec-image {
       width: 100%;
       max-width: 514px;
       margin-right: 24px;
@@ -130,7 +130,7 @@
       }
     }
 
-    .right-side {
+    .sec-media {
       width: 100%;
       max-width: 408px;
       @include media-breakpoint-down(md) {

@@ -27,24 +27,29 @@
                                     src="<?php echo get_template_directory_uri() . '/images/marks.PNG'?>"
                                     alt="img"></span></h3>
                         <div class="news-letter-pills">
-                            <span class="news-letter-pill rounded-pill">
-                                <p>Ui/Ux</p>
-                            </span>
-                            <span class="news-letter-pill  rounded-pill">
-                                <p>SEO</p>
-                            </span>
-                            <span class="news-letter-pill  rounded-pill">
-                                <p>Webflow implementations</p>
-                            </span>
-                            <span class="news-letter-pill  rounded-pill">
-                                <p>Web Development</p>
-                            </span>
-                            <span class="news-letter-pill  rounded-pill">
-                                <p>Shopify</p>
-                            </span>
-                            <span class="news-letter-pill  rounded-pill">
-                                <p>Project Management</p>
-                            </span>
+                            <a class="news-letter-pill btn rounded-pill ">
+                                Ui/Ux
+                            </a>
+
+                            <a class="news-letter-pill btn rounded-pill ">
+                                SEO
+                            </a>
+
+                            <a class="news-letter-pill btn rounded-pill ">
+                                Webflow implementations
+                            </a>
+
+                            <a class="news-letter-pill btn rounded-pill ">
+                                Web Development
+                            </a>
+
+                            <a class="news-letter-pill btn rounded-pill ">
+                                Shopify
+                            </a>
+
+                            <a class="news-letter-pill btn rounded-pill ">
+                                Project Management
+                            </a>
                         </div>
                         <div class="charter-form-btn">
                             <input type="submit" value="Get In Touch" class="submit_btn">
