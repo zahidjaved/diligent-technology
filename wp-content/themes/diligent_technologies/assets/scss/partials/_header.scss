@@ -187,6 +187,9 @@
 .main-header {
   padding: 32px 200px;
   background: $bg-fill;
+  position: absolute;
+  width: 100%;
+  top: 23px;
 
   @include media-breakpoint-down(4xl) {
     padding: 32px 57px;
@@ -230,6 +233,7 @@
 
   @include media-breakpoint-down(md) {
     padding: 3px 30px;
+    top: 35px;
   }
 
   @include media-breakpoint-down(sm) {

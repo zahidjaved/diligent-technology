@@ -9,9 +9,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-top: 146px;
   @include media-breakpoint-down(lg) {
     padding-bottom: 26px;
     min-height: 71vh;
+    margin-top: 70px;
   }
 
   .fill-bolded {

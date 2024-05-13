@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="team-heading">
-                        <h2><span class="blocked">Meet</span>
+                        <h2><span class="d-md-block">Meet</span>
                             our
                             <span class="yellow-fill">Team</span>
                         </h2>

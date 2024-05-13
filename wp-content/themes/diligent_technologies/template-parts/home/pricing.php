@@ -2,11 +2,11 @@
 <section class="section-pricing">
     <div class="container">
         <div class="row">
-            <div class=" col-xl-4">
+            <div class="col-xl-4">
                 <div class="pricing-heading">
                     <h2>Check
-                        <span class="blocked">our</span>
-                        <span class="yellow-fill">pricings Plan</span>
+                        <span class="d-md-block">our</span>
+                        <span class="yellow-fill">pricing Plan</span>
                     </h2>
                     <div class="description">
                         <p>We bring you a simple alternative to experienced yet costly hires who don’t always match your

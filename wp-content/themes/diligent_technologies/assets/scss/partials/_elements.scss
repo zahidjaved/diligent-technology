@@ -175,9 +175,9 @@ p {
   @include p;
 }
 
-.bg-fill-btn {
-  @include site-btn(yellow, 200px, $fill-grey-dark);
-}
+// .bg-fill-btn {
+//   @include site-btn(yellow, 200px, $fill-grey-dark);
+// }
 
 .hero-cta-icon {
   @include site-btn(transparent, 200px, $brand-secondary);
@@ -185,14 +185,6 @@ p {
 
 .yellow-fill {
   color: $brand-primary;
-}
-
-.blocked {
-  display: block;
-
-  @include media-breakpoint-down(md) {
-    display: inline-block;
-  }
 }
 
 .mark {

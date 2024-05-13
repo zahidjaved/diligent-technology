@@ -9,7 +9,7 @@
             <div class=" col-lg-4 ">
                 <div class="news-letter-header">
                     <h2>Let us
-                        <span class="blocked">help you</span>
+                        <span class="d-md-block">help you</span>
                         <span class="yellow-fill">get there</span>
                     </h2>
                     <div class="description">

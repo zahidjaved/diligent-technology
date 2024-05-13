@@ -1,10 +1,11 @@
 // home-hero scss
 .home-hero {
   min-height: 100vh;
-  padding: 120px 145px;
+  padding: 188px  145px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 96px;
 
   @include media-breakpoint-down(xxl) {
     padding: 120px 30px;
