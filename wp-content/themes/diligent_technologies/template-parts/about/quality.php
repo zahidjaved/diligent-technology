@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="quality-heading">
+                <div class="sec-head">
                     <h2>We Deliver
                         Quality Services
-                        <span class="yellow-fill">Globally</span>
+                        <span class="colored-fill">Globally</span>
                     </h2>
                 </div>
             </div>

@@ -2,11 +2,11 @@
 <section class="section-why-us">
     <div class="container">
         <div class="col-12">
-            <div class="why-us-heading">
+            <div class="sec-head">
                 <h2>
                     Why
                     Work
-                    <span class="yellow-fill">With us</span>
+                    <span class="colored-fill">With us</span>
                 </h2>
             </div>
         </div>
@@ -17,7 +17,7 @@
             <span class="border-animation-card"> </span>
             <div class="row">
                 <div class="col-md-6 col-xl-4">
-                    <div class="box">
+                    <div class="icons-box">
                         <div class="media">
                             <img src="<?php echo get_template_directory_uri() . '/images/AppIndicator.PNG'?>" alt="img">
                         </div>
@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4">
-                    <div class="box">
+                    <div class="icons-box">
                         <div class="media">
                             <img src="<?php echo get_template_directory_uri() . '/images/global.PNG'?>" alt="img">
                         </div>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4">
-                    <div class="box">
+                    <div class="icons-box">
                         <div class="media">
                             <img src="<?php echo get_template_directory_uri() . '/images/excee.PNG'?>" alt="img">
                         </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4">
-                    <div class="box">
+                    <div class="icons-box">
                         <div class="media">
                             <img src="<?php echo get_template_directory_uri() . '/images/AppIndicator.PNG'?>" alt="img">
                         </div>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4">
-                    <div class="box">
+                    <div class="icons-box">
                         <div class="media">
                             <img src="<?php echo get_template_directory_uri() . '/images/global.PNG'?>" alt="img">
                         </div>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4">
-                    <div class="box">
+                    <div class="icons-box">
                         <div class="media">
                             <img src="<?php echo get_template_directory_uri() . '/images/excee.PNG'?>" alt="img">
                         </div>

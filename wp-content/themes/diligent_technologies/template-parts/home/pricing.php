@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-4">
-                <div class="pricing-heading">
+                <div class="sec-head">
                     <h2>Check
                         <span class="d-md-block">our</span>
-                        <span class="yellow-fill">pricing Plan</span>
+                        <span class="colored-fill">pricing Plan</span>
                     </h2>
                     <div class="description">
                         <p>We bring you a simple alternative to experienced yet costly hires who don’t always match your
@@ -52,8 +52,8 @@
                                 <p>Price</p>
                             </div>
                             <div class="estimate">
-                                <p><span class="yellow-fill">1 week</span></p>
-                                <p><span class="yellow-fill">$1,500</span></p>
+                                <p><span class="colored-fill">1 week</span></p>
+                                <p><span class="colored-fill">$1,500</span></p>
                             </div>
                         </div>
                     </div>
@@ -71,8 +71,8 @@
                                 <p>Price</p>
                             </div>
                             <div class="pricing-estimate">
-                                <p><span class="yellow-fill">1 week</span></p>
-                                <p><span class="yellow-fill">$1,500</span></p>
+                                <p><span class="colored-fill">1 week</span></p>
+                                <p><span class="colored-fill">$1,500</span></p>
                             </div>
                         </div>
                     </div>
@@ -90,8 +90,8 @@
                                 <p>Price</p>
                             </div>
                             <div class="pricing-estimate">
-                                <p><span class="yellow-fill">1 week</span></p>
-                                <p><span class="yellow-fill">$1,500</span></p>
+                                <p><span class="colored-fill">1 week</span></p>
+                                <p><span class="colored-fill">$1,500</span></p>
                             </div>
                         </div>
                     </div>
@@ -109,8 +109,8 @@
                                 <p>Price</p>
                             </div>
                             <div class="pricing-estimate">
-                                <p><span class="yellow-fill">1 week</span></p>
-                                <p><span class="yellow-fill">$1,500</span></p>
+                                <p><span class="colored-fill">1 week</span></p>
+                                <p><span class="colored-fill">$1,500</span></p>
                             </div>
                         </div>
                     </div>
@@ -128,8 +128,8 @@
                                 <p>Price</p>
                             </div>
                             <div class="pricing-estimate">
-                                <p><span class="yellow-fill">1 week</span></p>
-                                <p><span class="yellow-fill">$1,500</span></p>
+                                <p><span class="colored-fill">1 week</span></p>
+                                <p><span class="colored-fill">$1,500</span></p>
                             </div>
                         </div>
                     </div>
@@ -147,8 +147,8 @@
                                 <p>Price</p>
                             </div>
                             <div class="pricing-estimate">
-                                <p><span class="yellow-fill">1 week</span></p>
-                                <p><span class="yellow-fill">$1,500</span></p>
+                                <p><span class="colored-fill">1 week</span></p>
+                                <p><span class="colored-fill">$1,500</span></p>
                             </div>
                         </div>
                     </div>

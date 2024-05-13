@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="latest-blog-heading">
+                <div class="sec-head">
                     <h2><span class="d-md-block">Check</span>
                         Our latest
-                        <span class="yellow-fill"> blog posts</span>
+                        <span class="colored-fill"> blog posts</span>
                     </h2>
                 </div>
             </div>

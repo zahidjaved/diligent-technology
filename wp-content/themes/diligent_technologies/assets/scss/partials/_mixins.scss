@@ -99,8 +99,11 @@ $breakpoints-down: (
 @mixin h3 {
   @include global-font;
   @include font-format(22px, 24px);
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     @include font-format(20px, 20px);
+  }
+  @include media-breakpoint-down(sm) {
+    @include font-format(18px, 20px);
   }
 }
 
@@ -108,7 +111,6 @@ $breakpoints-down: (
   @include font-format(21px , 30px);
   font-family: $font-family-base;
   font-weight: $fw-semi-bold;
-  
 }
 
 @mixin h5 {
@@ -122,6 +124,12 @@ $breakpoints-down: (
 @mixin p {
   @include paragraph;
   @include font-format(16px, 26px);
+  @include media-breakpoint-down(md) {
+    @include font-format(15px, 20px);
+  }
+  @include media-breakpoint-down(sm) {
+    @include font-format(14px, 20px);
+  }
 }
 
 @mixin transition-standard {
@@ -149,7 +157,9 @@ $breakpoints-down: (
   font-weight: $fw-semi-bold;
   line-height: 40px;
   @include transition-standard;
-
+  @include media-breakpoint-down(md) {
+    @include font-format(14, 20px);
+  }
   &:hover {
     background: $fill-black-faded;
     color: $brand-primary;
@@ -189,7 +199,7 @@ $breakpoints-down: (
     outline: none;
     box-shadow: none;
   }
-
+ 
   @if $variation == inverted {
     background-color: transparent;
     color: $brand-primary;

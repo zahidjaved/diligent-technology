@@ -4,7 +4,7 @@
         <div class="row">
             <div class=" col-lg-7 ">
                 <div class="hero-text">
-                    <h1>SOFTWARE DEVELOPMENT <span class="yellow-fill">RESOURCE CENTRE</span></h1>
+                    <h1>SOFTWARE DEVELOPMENT <span class="colored-fill">RESOURCE CENTRE</span></h1>
                     <div class="hero-description">
                         <p>Use our team of well-versed IT and software development experts committed to upscaling your
                             business with flexible working hours to beat the time zones.</p>
@@ -36,7 +36,7 @@
                         <span class="border-animation-card"> </span>
                         <span class="border-animation-card"> </span>
                         <span class="border-animation-card"> </span>
-                        <h3><span class="yellow-fill">Let’s connect,</span> Fill in the form below</h3>
+                        <h3><span class="colored-fill">Let’s connect,</span> Fill in the form below</h3>
                         <div class="hero-news-letter-form">
                             <form action="">
                                 <label for="name">Your Name</label>

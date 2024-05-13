@@ -154,13 +154,39 @@ h5 {
 h1 {
   @include h1;
   letter-spacing: -1.6px;
+  @include media-breakpoint-down(xl) {
+    @include font-format(58px, 73px);
+  }
+  @include media-breakpoint-down(lg) {
+    @include font-format(51px, 65px);
+  }
   @include media-breakpoint-down(md) {
     text-align: center;
+    @include font-format(42px, 61px);
+  }
+  @include media-breakpoint-down(md) {
+    text-align: center;
+    @include font-format(38px, 58px);
   }
 }
 
 h2 {
   text-transform: uppercase;
+  @include font-format(58px, 69px);
+  @include media-breakpoint-down(xl) {
+    @include font-format(50px, 68px);
+  }
+  @include media-breakpoint-down(lg) {
+    @include font-format(42px, 58px);
+  }
+  @include media-breakpoint-down(md) {
+    @include font-format(36px, 54px);
+  } @include media-breakpoint-down(md) {
+    @include font-format(36px, 54px);
+  }
+  @include media-breakpoint-down(sm) {
+    @include font-format(32px, 51px);
+  }
 }
 
 h3 {
@@ -183,9 +209,15 @@ p {
   @include site-btn(transparent, 200px, $brand-secondary);
 }
 
-.yellow-fill {
+// .yellow-fill {
+//   color: $brand-primary;
+// }
+
+
+.colored-fill {
   color: $brand-primary;
 }
+
 
 .mark {
   display: inline-block;

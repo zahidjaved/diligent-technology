@@ -2,11 +2,11 @@
 <section class="section-contact">
     <div class="container">
         <div class="col-12">
-            <div class="contact-heading">
+            <div class="sec-head">
                 <h2>
                     Send
                     Your
-                    <span class="yellow-fill"> Details</span>
+                    <span class="colored-fill"> Details</span>
                 </h2>
             </div>
         </div>

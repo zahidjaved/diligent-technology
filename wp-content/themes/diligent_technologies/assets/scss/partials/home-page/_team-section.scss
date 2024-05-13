@@ -11,7 +11,7 @@
     padding-bottom: 32px;
   }
 
-  .team-heading {
+  .sec-head {
     margin-bottom: 106px;
 
     @include media-breakpoint-down(md) {
@@ -44,7 +44,9 @@
 
       h3 {
         color: $brand-primary;
-
+        @include media-breakpoint-down(xl) {
+          @include font-format(17px, 20px);
+        }
         @include media-breakpoint-down(md) {
           font-size: 16px;
           line-height: 18px;

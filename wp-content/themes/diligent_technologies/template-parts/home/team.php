@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="team-heading">
-                    <h2>Multiply your <span class="yellow-fill">team’s output</span></h2>
+                <div class="sec-head">
+                    <h2>Multiply your <span class="colored-fill">team’s output</span></h2>
                 </div>
             </div>
             <div class="col-sm-6  col-lg-3 ">

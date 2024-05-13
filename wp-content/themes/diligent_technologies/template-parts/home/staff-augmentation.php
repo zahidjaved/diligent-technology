@@ -3,9 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="staff-heading">
+                <div class="sec-head">
                     <h2>Our no-fuss approach to
-                        <span class="yellow-fill"> staff augmentation </span>
+                        <span class="colored-fill"> staff augmentation </span>
                     </h2>
                 </div>
             </div>

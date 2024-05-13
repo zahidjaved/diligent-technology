@@ -18,7 +18,7 @@
       padding: 30px 25px 10px 25px;
     }
 
-    .news-letter-header {
+    .sec-head {
       h2 {
         margin-bottom: 32px;
       }
@@ -49,6 +49,9 @@
         &:focus {
           outline: none;
         }
+        @include media-breakpoint-down(md) {
+          height: 50px;
+        }
       }
 
       .charter-form-btn {
@@ -75,27 +78,94 @@
         }
       }
 
-      .news-letter-pills {
+      .PillList-items {
         margin: 24px 0 0;
 
-        .news-letter-pill {
-          padding-top: 15px !important;
-          padding: 3px 29px;
-          background: #f9f6e014;
-          margin-bottom: 5px;
-          display: inline-block;
-          color: $fill-grey-v2;
-          box-shadow: none;
-          @include paragraph;
-          @include font-format(15px, 11px);
-          font-weight: $fw-medium;
-          margin-top: 12px;
-          @include transition-standard;
+        // .news-letter-pill {
+        //   padding-top: 15px !important;
+        //   padding: 3px 29px;
+        //   background: #f9f6e014;
+        //   margin-bottom: 5px;
+        //   display: inline-block;
+        //   color: $fill-grey-v2;
+        //   box-shadow: none;
+        //   @include paragraph;
+        //   @include font-format(15px, 11px);
+        //   font-weight: $fw-medium;
+        //   margin-top: 12px;
+        //   @include transition-standard;
 
-          &:hover {
-            box-shadow: -2px -6px 27px -18px rgba(122, 104, 104, 0.79);
-            -webkit-box-shadow: -2px -6px 27px -18px rgba(122, 104, 104, 0.79);
-            -moz-box-shadow: -2px -6px 27px -18px rgba(122, 104, 104, 0.79);
+        //   &:hover {
+        //     box-shadow: -2px -6px 27px -18px rgba(122, 104, 104, 0.79);
+        //     -webkit-box-shadow: -2px -6px 27px -18px rgba(122, 104, 104, 0.79);
+        //     -moz-box-shadow: -2px -6px 27px -18px rgba(122, 104, 104, 0.79);
+        //   }
+        // }
+
+        .PillList-item {
+          cursor: pointer;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 20px;
+          margin: 0 11px 16px 0;
+          text-transform: capitalize;
+
+          input[type="checkbox"] {
+            display: none;
+          }
+
+          input[type="checkbox"]:checked + .PillList-label {
+            background-color: $brand-primary;
+            border: 1px solid transparent;
+            color: $fill-black-faded;
+            padding-right: 16px;
+            padding-left: 16px;
+          }
+
+          .PillList-label {
+            border: 1px solid transparent;
+            border-radius: 50px;
+            color: $fill-grey-v2;
+            font-weight: $fw-medium;
+            background: #f9f6e014;
+            display: block;
+            padding: 8px 28px;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 20px;
+
+            .Icon {
+              width: 14px;
+              height: 14px;
+              margin: 0 0 0 12px;
+            }
+
+            .Icon--smallest {
+              font-size: 12px;
+              line-height: 12px;
+
+              .fa{
+                font-size: 14px;
+                line-height: 12px;
+              }
+            }
+            .Icon {
+              background: transparent;
+              display: inline-block;
+              font-style: normal;
+              vertical-align: baseline;
+              position: relative;
+            }
+          }
+
+          input[type="checkbox"]:checked + .PillList-label .Icon--checkLight {
+            display: inline-block;
+          }
+          input[type="checkbox"]:checked + .PillList-label .Icon--addLight,
+          .PillList-label .Icon--checkLight,
+          .PillList-children {
+            display: none;
           }
         }
       }

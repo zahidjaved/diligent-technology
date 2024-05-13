@@ -1,7 +1,7 @@
 // home-hero scss
 .home-hero {
   min-height: 100vh;
-  padding: 188px  145px;
+  // padding: 188px  145px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +20,7 @@
     max-width: 722px;
     padding-top: 60px;
 
+  
     .hero-description {
       p {
         @include paragraph;
@@ -27,6 +28,7 @@
         margin: 39px 0;
         @include media-breakpoint-down(md) {
           text-align: center;
+          @include font-format(16px, 24px);
         }
       }
     }

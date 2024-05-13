@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="about-us-heading">
-                    <h2>Time to solve the <span class="yellow-fill">puzzle</span>
-                        We have <span class="yellow-fill">got</span> your missing <span
-                            class="yellow-fill">pieces.</span></h2>
+                <div class="sec-head">
+                    <h2>Time to solve the <span class="colored-fill">puzzle</span>
+                        We have <span class="colored-fill">got</span> your missing <span
+                            class="colored-fill">pieces.</span></h2>
                 </div>
             </div>
             <div class="col-lg-6">

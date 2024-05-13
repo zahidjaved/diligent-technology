@@ -23,6 +23,7 @@
         }
         @include media-breakpoint-down(sm) {
           margin: 5px 0;
+          @include font-format(20px, 33px);
         }
       }
     }

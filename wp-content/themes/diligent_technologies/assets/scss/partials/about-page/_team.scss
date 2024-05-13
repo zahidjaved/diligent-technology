@@ -13,7 +13,7 @@
     padding-bottom: 32px;
   }
 
-  .team-heading {
+  .sec-head {
     width: 100%;
     max-width: 254px;
     @include media-breakpoint-down(md) {
@@ -68,6 +68,10 @@
         margin-bottom: 16px;
         color: $brand-primary;
         text-transform: uppercase;
+
+        @include media-breakpoint-down(md) {
+          margin-bottom: 7px;
+        }
       }
 
       .description {

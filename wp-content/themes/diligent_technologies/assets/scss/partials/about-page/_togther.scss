@@ -22,7 +22,7 @@
       padding: 34px 12px 23px 36px;
     }
 
-    .togather-heading {
+    .sec-head {
       width: 100%;
       max-width: 595px;
 
@@ -33,6 +33,7 @@
         line-height: 73px;
         color: $fill-black-faded;
         text-transform: uppercase;
+        margin: 0;
         @include media-breakpoint-down(lg) {
           font-size: 48px;
           line-height: 60px;
@@ -44,7 +45,7 @@
           text-align: center;
         }
         @include media-breakpoint-down(sm) {
-          font-size: 38px;
+          font-size: 35px;
           line-height: 53px;
         }
       }

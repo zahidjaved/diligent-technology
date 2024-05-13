@@ -4,10 +4,10 @@
         <div class="inner ">
             <div class="row">
                 <div class="col-12">
-                    <div class="team-heading">
+                    <div class="sec-head">
                         <h2><span class="d-md-block">Meet</span>
                             our
-                            <span class="yellow-fill">Team</span>
+                            <span class="colored-fill">Team</span>
                         </h2>
                     </div>
                 </div>

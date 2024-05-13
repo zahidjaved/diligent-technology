@@ -3,15 +3,15 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="project-heading">
+                <div class="sec-head">
                     <h2>Our
                         recent
-                        <span class="yellow-fill">Projects</span>
+                        <span class="colored-fill">Projects</span>
                     </h2>
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="boxx">
+                <div class="project-gallery">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/sea.PNG'?>" alt="img">
                         <div class="overlay">
@@ -24,7 +24,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="boxx">
+                <div class="project-gallery">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/dashboad.PNG'?>" alt="img">
                         <div class="overlay">
@@ -37,7 +37,7 @@
             </div>
 
             <div class="col-md-6 ">
-                <div class="boxx">
+                <div class="project-gallery">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/AI.PNG'?>" alt="img">
                         <div class="overlay">

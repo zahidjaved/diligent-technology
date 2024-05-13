@@ -4,7 +4,7 @@
         <div class="inner ">
             <div class="row">
                 <div class="col-md-6 col-lg-8">
-                    <div class="togather-heading">
+                    <div class="sec-head">
                         <h4>
                             “Big jobs are made possible together”
                         </h4>
