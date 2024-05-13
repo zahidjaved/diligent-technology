@@ -15,7 +15,7 @@
   }
 
   .inner {
-    background: $fill-yellow;
+    background: $brand-primary;
     border-radius: 30px;
     padding: 42px 80px 31px 80px;
     @include media-breakpoint-down(lg) {
@@ -29,7 +29,7 @@
       h4 {
         font-family: $font-family-Oswald;
         font-size: 70px;
-        font-weight: 700;
+        font-weight: $fw-bold;
         line-height: 73px;
         color: $fill-black-faded;
         text-transform: uppercase;

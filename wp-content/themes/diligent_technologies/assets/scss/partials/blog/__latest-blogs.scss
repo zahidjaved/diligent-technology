@@ -57,16 +57,16 @@
 
       h3 {
         font-size: 18px;
-        font-weight: 600;
+        font-weight: $fw-semi-bold;
         line-height: 16px;
       }
 
       h6 {
         font-family: $font-family-base;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: $fw-regular;
         line-height: 20.86px;
-        color: $fill-white-v1;
+        color: $brand-secondary;
       }
     }
     .description {
@@ -93,7 +93,7 @@
     }
 
     .view-more-cta {
-      @include site-btn(transparent, 200px, $fill-white);
+      @include site-btn(transparent, 200px, $brand-secondary);
       .btn-svg {
         margin-left: 58px;
       }

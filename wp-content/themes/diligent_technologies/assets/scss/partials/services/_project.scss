@@ -40,7 +40,7 @@
 
       p {
         font-size: 20px;
-        color: $fill-white;
+        color: $brand-secondary;
         text-transform: capitalize;
       }
     }
@@ -62,7 +62,7 @@
       margin-top: 16px;
     }
     .cta-btn {
-      @include site-btn(transparent, 217px, $fill-white);
+      @include site-btn(transparent, 217px, $brand-secondary);
       .btn-svg {
         margin-left: 57px;
       }

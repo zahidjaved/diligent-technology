@@ -49,14 +49,14 @@ $breakpoints-down: (
 @mixin global-font {
   @include font-format(22px);
   font-family: $font-family-base;
-  color: $fill-white;
+  color: $brand-secondary;
   font-style: normal;
   font-weight: $fw-medium;
 }
 
 @mixin paragraph {
   @include font-format(16px);
-  color: $fill-white-v1;
+  color:$brand-secondary;
   font-family: $font-family-base;
   font-style: normal;
   font-weight: $fw-regular;
@@ -71,7 +71,7 @@ $breakpoints-down: (
   font-family: $font-family-Oswald;
   font-weight: $fw-semi-bold;
   font-style: normal;
-  color: $fill-white;
+  color: $brand-secondary;
 }
 
 @mixin h1 {
@@ -151,8 +151,8 @@ $breakpoints-down: (
 
   &:hover {
     background: $fill-black-faded;
-    color: $fill-yellow;
-    border: 1px solid $fill-yellow;
+    color: $brand-primary;
+    border: 1px solid $brand-primary;
   }
 }
 

@@ -16,10 +16,10 @@
 
   .fill-bolded {
     font-size: 167px;
-    font-weight: 600;
+    font-weight: $fw-semi-bold;
     line-height: 91px;
     letter-spacing: -1.600000023841858px;
-    color: $fill-yellow;
+    color: $brand-primary;
 
     @include media-breakpoint-down(sm) {
       font-size: 100px;

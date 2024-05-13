@@ -24,7 +24,7 @@
       max-width: 47px;
       min-height: 108px;
       border-radius: 58px 58px 107px 0px;
-      background: $fill-yellow;
+      background: $brand-primary;
       top: 0;
       left: 59%;
       transform: translate(-50%, -50%);
@@ -52,7 +52,7 @@
       max-width: 69px;
       min-height: 158px;
       border-radius: 98px 0px 58px 58px;
-      background: $fill-yellow;
+      background: $brand-primary;
       bottom: 59px;
       left: 48%;
       @include media-breakpoint-down(lg) {
@@ -87,7 +87,7 @@
       max-width: 199px;
       min-height: 108px;
       border-radius: 65px 0px 78px 65px;
-      background: $fill-yellow;
+      background: $brand-primary;
       bottom: 64px;
       left: 21%;
       opacity: 0.4;

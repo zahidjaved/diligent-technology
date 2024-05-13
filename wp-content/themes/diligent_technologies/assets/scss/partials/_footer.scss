@@ -114,7 +114,7 @@
           a {
             font-family: $font-family-base;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: $fw-regular;
             line-height: 23.84px;
             color: $fill-white-v1;
           }
@@ -154,7 +154,7 @@
           a {
             font-family: $font-family-base;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: $fw-regular;
             line-height: 23.84px;
             color: $fill-white-v1;
             text-decoration: underline;
@@ -177,7 +177,7 @@
     h4 {
       font-family: $font-family-Oswald;
       font-size: 25px;
-      font-weight: 600;
+      font-weight: $fw-semi-bold;
       line-height: 32.5px;
       color: $fill-yellow;
       margin-right: 40px;
@@ -189,7 +189,7 @@
     .description{
       p {
         font-size: 14px;
-        font-weight: 400;
+        font-weight: $fw-regular;
         line-height: 17.6px;
       }
     }

@@ -45,7 +45,7 @@
         background: #f9f6e014;
         margin-bottom: 24px;
         border: none;
-        color: $fill-white-v1;
+        color: $brand-secondary;
         &:focus {
           outline: none;
         }
@@ -57,11 +57,11 @@
 
         input[type="submit"] {
           border-radius: 30px;
-          background: $fill-yellow;
+          background: $brand-primary;
           padding: 4px 50px;
           font-family: $font-family-base;
           font-size: 16px;
-          font-weight: 600;
+          font-weight: $fw-semi-bold;
           line-height: 40px;
           color: $fill-black-faded;
           margin-top: 35px;
@@ -69,8 +69,8 @@
 
           &:hover {
             background: $fill-black-faded;
-            color: $fill-yellow;
-            border: 1px solid $fill-yellow;
+            color: $brand-primary;
+            border: 1px solid $brand-primary;
           }
         }
       }
@@ -88,7 +88,7 @@
           box-shadow: none;
           @include paragraph;
           @include font-format(15px, 11px);
-          font-weight: 500;
+          font-weight: $fw-medium;
           margin-top: 12px;
           @include transition-standard;
 

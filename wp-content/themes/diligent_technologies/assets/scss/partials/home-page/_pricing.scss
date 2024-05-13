@@ -42,9 +42,9 @@
       li {
         font-family: $font-family-base;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: $fw-regular;
         line-height: 29px;
-        color: $fill-white-v1;
+        color: $brand-secondary;
       }
     }
 
@@ -79,7 +79,7 @@
       @include transition-standard;
 
       &:hover {
-        background: $fill-yellow;
+        background: $brand-primary;
         color: $fill-black-faded;
 
         h4,
@@ -93,7 +93,7 @@
 
       h4 {
         @include h4;
-        color: $fill-yellow;
+        color: $brand-primary;
         margin-bottom: 11px;
       }
       .description {

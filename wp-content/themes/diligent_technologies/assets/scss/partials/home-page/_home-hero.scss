@@ -45,7 +45,7 @@
       }
 
       .hero-cta-btn {
-        @include site-btn($fill-yellow, 200px, $fill-grey-dark);
+        @include site-btn($brand-primary, 200px, $fill-grey-dark);
         @include media-breakpoint-down(sm) {
           margin-bottom: 15px;
         }
@@ -83,11 +83,11 @@
 
       .hero-news-letter-form {
         label {
-          color: $fill-white;
+          color: $brand-secondary;
           font-family: $font-family-base;
           font-size: 16px;
           font-style: normal;
-          font-weight: 400;
+          font-weight: $fw-regular;
           line-height: normal;
           margin-bottom: 7px;
         }
@@ -96,7 +96,7 @@
           padding: 8px 12px;
           width: 100%;
           border-radius: 15px;
-          color: $fill-white;
+          color: $brand-secondary;
           margin-bottom: 14px;
           border: 1px solid $border-filll;
           opacity: 0.5;
@@ -113,7 +113,7 @@
         }
 
         input[type="submit"] {
-          background: $fill-yellow;
+          background: $brand-primary;
           color: $fill-grey-dark;
           height: 48px;
           margin-top: 10px;
@@ -126,8 +126,8 @@
 
           &:hover {
             background: $fill-black-faded;
-            color: $fill-yellow;
-            border: 1px solid $fill-yellow;
+            color: $brand-primary;
+            border: 1px solid $brand-primary;
           }
         }
       }

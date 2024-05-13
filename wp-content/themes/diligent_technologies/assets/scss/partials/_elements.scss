@@ -17,7 +17,7 @@ a {
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $fill-yellow;
+    color: $brand-primary;
   }
 }
 
@@ -180,7 +180,7 @@ p {
 }
 
 .hero-cta-icon {
-  @include site-btn(transparent, 200px, $fill-white);
+  @include site-btn(transparent, 200px, $brand-secondary);
 }
 
 .yellow-fill {

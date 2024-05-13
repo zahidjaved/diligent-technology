@@ -45,7 +45,7 @@
         @include h2;
         @include font-format(70px, 73px);
         margin-bottom: 19px;
-        color: $fill-yellow;
+        color: $brand-primary;
         @include media-breakpoint-down(xl) {
           @include font-format(42px, 69px);
         }
@@ -70,7 +70,7 @@
         max-width: 100%;
       }
       .cta-btn {
-        @include site-btn($fill-yellow, 159px, $fill-grey-dark);
+        @include site-btn($brand-primary, 159px, $fill-grey-dark);
       }
     }
   }

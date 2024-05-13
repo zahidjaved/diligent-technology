@@ -11,7 +11,7 @@
 //         list-style: none;
 //         padding: 0;
 //         margin: 0;
-//     }
+//     }d
 
 //     .inner {
 //         display: flex;
@@ -188,8 +188,6 @@
   padding: 32px 200px;
   background: $bg-fill;
 
- 
-
   @include media-breakpoint-down(4xl) {
     padding: 32px 57px;
   }
@@ -197,11 +195,8 @@
   @include media-breakpoint-down(xl) {
     padding: 32px 40px;
   }
- 
-
 
   @include media-breakpoint-down(lg) {
-   
     padding: 32px 30px;
 
     .navbar-toggler {
@@ -233,7 +228,7 @@
     }
   }
 
-  @include media-breakpoint-down(md){
+  @include media-breakpoint-down(md) {
     padding: 3px 30px;
   }
 
@@ -290,8 +285,8 @@
       margin-top: 19px;
     }
 
-    .bg-fill-btn{
-        @include site-btn($fill-yellow, 122px, $fill-grey-dark);
+    .bg-fill-btn {
+      @include site-btn($fill-yellow, 122px, $fill-grey-dark);
     }
   }
 }
