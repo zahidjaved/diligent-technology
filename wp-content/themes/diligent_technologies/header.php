@@ -9,15 +9,32 @@
  * @package diligent_technologies
  */
 
+
+
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 
 <head>
+
+
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 
+    <!-- gsap library script links -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<script>
+
+//  gsap library script links 
+
+    
+
+     
     <?php wp_head(); 
 	include 'assets/css/theme_options.php';
 	?>
