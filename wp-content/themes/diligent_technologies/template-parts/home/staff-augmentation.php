@@ -18,123 +18,10 @@
             <!-- <canvas id="myChart"></canvas> -->
 
             <!-- svg animatation -->
-            <div class="gsap-scroll-hoizantal">
-                <!-- <div class="services">
-                    <div class="progress-bar">
-                        <div class="progress-line"></div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>01</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>02</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>03</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>03</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>04</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>05</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>06</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel">
-                        <div class="wrapper">
-                            <div class="service-count">
-                                <h3>07</h3>
-                            </div>
-                            <h3>Documentation</h3>
-                            <div class="description">
-                                <p>Collecting all the necessary material to officiate our addition to your
-                                    IT staff.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- testing -->
+            <div class="gsap-scroll-horizontal">
                 <div class="progress-bar-line">
-
                     <div class="progress-bar">
                         <div class="progress-circle">
-                      
                         </div>
                         <div class="progress-line"></div>
                     </div>
@@ -144,7 +31,7 @@
                                 <div class="service-count">
                                     <h3>01</h3>
                                 </div>
-                                <h3>Documentation</h3>
+                                <h4>Documentation</h4>
                                 <div class="description">
                                     <p>Collecting all the necessary material to officiate our addition to your
                                         IT staff.
@@ -157,7 +44,7 @@
                                 <div class="service-count">
                                     <h3>02</h3>
                                 </div>
-                                <h3>Documentation</h3>
+                                <h4>Documentation</h4>
                                 <div class="description">
                                     <p>Collecting all the necessary material to officiate our addition to your
                                         IT staff.
@@ -170,7 +57,7 @@
                                 <div class="service-count">
                                     <h3>03</h3>
                                 </div>
-                                <h3>Documentation</h3>
+                                <h4>Documentation</h4>
                                 <div class="description">
                                     <p>Collecting all the necessary material to officiate our addition to your
                                         IT staff.
@@ -183,7 +70,7 @@
                                 <div class="service-count">
                                     <h3>04</h3>
                                 </div>
-                                <h3>Documentation</h3>
+                                <h4>Documentation</h4>
                                 <div class="description">
                                     <p>Collecting all the necessary material to officiate our addition to your
                                         IT staff.
@@ -191,10 +78,22 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="panel">
+                            <div class="wrapper">
+                                <div class="service-count">
+                                    <h3>04</h3>
+                                </div>
+                                <h4>Documentation</h4>
+                                <div class="description">
+                                    <p>Collecting all the necessary material to officiate our addition to your
+                                        IT staff.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <!-- testing -->
-
             </div>
             <!-- svg animatation -->
         </div>

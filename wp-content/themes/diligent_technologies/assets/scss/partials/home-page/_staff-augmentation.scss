@@ -3,6 +3,7 @@
   background: $bg-fill;
   padding-bottom: 150px;
   overflow: hidden;
+ padding-top: 50px;
 
   .sec-head {
     width: 100%;
@@ -17,107 +18,21 @@
   }
 
   .graph {
-    .gsap-scroll-hoizantal {
-      overflow: hidden;
-      // .services {
-      //   display: flex;
-      //   overflow: hidden;
-      //   position: relative;
-      //   align-items: center;
-
-      //   .progress-bar {
-      //     margin: 2rem 0;
-      //     width: 80rem;
-      //     height: 0.2rem;
-      //     background-color: red;
-      //     position: relative;
-
-      //   }
-
-      //   .progress-line {
-      //     position: absolute;
-      //     left: 0;
-      //     height: 100%;
-      //     background-color: blue;
-      //     width: 100%;
-      //   }
-
-      //   .panel {
-      //     width: 100%;
-      //     // max-width: 50px;
-      //     min-width: 100vw;
-      //     margin-top: 50px;
-      //     min-height: 30vh;
-
-      //     .wrapper {
-      //       width: 100%;
-      //       max-width: 480px;
-      //       margin-left: 23%;
-
-      //       @include media-breakpoint-down(4xl) {
-      //         margin-left: 15%;
-      //       }
-      //       @include media-breakpoint-down(3xl) {
-      //         margin-left: 8%;
-      //       }
-      //       @include media-breakpoint-down(lg) {
-      //         margin-left: 16%;
-      //       }
-      //       @include media-breakpoint-down(sm) {
-      //         margin-left: 14%;
-      //       }
-
-      //       .service-count {
-      //         width: 100%;
-      //         max-width: 115px;
-      //         h3 {
-      //           font-family: $font-family-base;
-      //           font-size: 72px;
-      //           font-weight: $fw-extra-bold;
-      //           line-height: 100.8px;
-      //           letter-spacing: 0.11em;
-      //           color: $brand-primary;
-      //           -webkit-text-stroke: 2px $brand-primary;
-      //           -webkit-text-fill-color: transparent;
-
-      //           @include media-breakpoint-down(sm) {
-      //             font-size: 50px;
-      //             line-height: 74.8px;
-      //           }
-      //         }
-      //       }
-
-      //       h3 {
-      //         margin-bottom: 12px;
-      //       }
-      //       .description {
-      //         width: 100%;
-      //         max-width: 458px;
-      //         @include media-breakpoint-down(md) {
-      //           max-width: 348px;
-      //         }
-      //         @include media-breakpoint-down(sm) {
-      //           max-width: 238px;
-      //         }
-      //         // background: transparent;
-      //       }
-      //     }
-      //   }
-      // }
+    .gsap-scroll-horizontal {
       .progress-bar-line {
         overflow: hidden;
         padding: 5rem;
         display: grid;
         align-content: center;
         position: relative;
+        width: 100%;
+        transform-origin: left center;
         @include media-breakpoint-down(md) {
           padding: 0rem 5rem;
         }
 
         .progress-bar {
           overflow: unset;
-
-          
         }
 
         .progress-circle {
@@ -131,6 +46,7 @@
           transform: translateY(-50%);
           z-index: 2;
           border: 15px solid #5d5e1e;
+          text-align: center;
 
           @include media-breakpoint-down(sm) {
             width: 35px;
@@ -151,6 +67,7 @@
             min-width: 100vw;
             margin-top: 50px;
             min-height: 30vh;
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
 
             .wrapper {
               width: 100%;
@@ -190,8 +107,12 @@
                 }
               }
 
-              h3 {
-                margin-bottom: 12px;
+              h4{
+                font-family: $font-family-base;
+                font-size: 35px;
+                font-weight: $fw-semi-bold;
+                line-height: 45px;
+                margin-bottom: 10px;
               }
               .description {
                 width: 100%;
@@ -202,7 +123,10 @@
                 @include media-breakpoint-down(sm) {
                   max-width: 238px;
                 }
-                // background: transparent;
+              
+                p{
+                  @include font-format(18px, 30px);
+                }
               }
             }
           }
@@ -219,15 +143,13 @@
             left: 475px;
 
             @include media-breakpoint-down(4xl) {
-              max-width: 80rem;
-              left: 178px;
+              max-width: 91rem;
+              left: 233px;
             }
-
             @include media-breakpoint-down(3xl) {
               max-width: 69rem;
               left: 11px;
             }
-
             @include media-breakpoint-down(xxl) {
               max-width: 68rem;
               left: 4px;

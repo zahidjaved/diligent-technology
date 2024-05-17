@@ -6,14 +6,13 @@
   align-items: center;
   justify-content: center;
   margin-top: 96px;
-
   @include media-breakpoint-down(xxl) {
     padding: 120px 30px;
   }
-
   @include media-breakpoint-down(md) {
     padding: 37px 0px;
   }
+  
 
   .hero-text {
     width: 100%;

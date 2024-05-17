@@ -96,7 +96,6 @@ function mobileMenu(menu, button) {
 const slider = document.querySelector(".slider");
 const progressLine = document.querySelector(".progress-line");
 const progressCircle = document.querySelector(".progress-circle");
-const panels = document.querySelectorAll(".panel");
 
 const tl = gsap.timeline({
   defaults: {
@@ -120,11 +119,14 @@ function updateProgress() {
   const progress =
     gsap.getProperty(".slider", "x") /
     -(slider.clientWidth - window.innerWidth);
-  const progressWidth = Math.max(0, Math.min(1, progress)); // Ensure progress is between 0 and 1
-  const circlePosition = progressWidth * progressLine.offsetWidth;
+  const progressWidth = Math.max(0, Math.min(1, progress));
+  
+  // Account for the circle's width
+  const circlePosition = progressWidth * (progressLine.offsetWidth - progressCircle.offsetWidth);
 
-  gsap.set(progressLine, { scaleX: progressWidth }); // Scale the progress line width
-  gsap.set(progressCircle, { left: circlePosition });
+  gsap.set(progressLine, { scaleX: progressWidth });
+  gsap.set(progressCircle, { x: circlePosition });
 }
 
-gsap.set(progressLine, { transformOrigin: "left center" }); // Ensure transform origin is set
+gsap.set(progressLine, { transformOrigin: "left center" });
+
