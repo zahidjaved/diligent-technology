@@ -9,14 +9,11 @@
                     </h2>
                 </div>
             </div>
-
         </div>
     </div>
-
     <div class="col-12">
         <div class="graph">
             <!-- <canvas id="myChart"></canvas> -->
-
             <!-- svg animatation -->
             <div class="gsap-scroll-horizontal">
                 <div class="progress-bar-line">

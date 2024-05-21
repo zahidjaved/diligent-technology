@@ -28,6 +28,7 @@ $breakpoints-down: (
   "xxl": "max-width: 1399.98px",
   "3xl": "max-width: 1599.98px",
   "4xl": "max-width: 1799.98px",
+  "dxl": "max-width: 1920.98px",
 );
 
 @mixin media-breakpoint-down($user-value) {
