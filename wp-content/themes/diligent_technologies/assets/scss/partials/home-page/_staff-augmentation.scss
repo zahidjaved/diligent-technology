@@ -165,20 +165,11 @@
             height: 0.38rem;
             background-color: #493d16;
             position: relative;
-            left: 475px;
-
-            @include media-breakpoint-down(dxl) {
-              max-width: 84rem;
-              left: 225px;
-            }
-
-            @include media-breakpoint-down(4xl) {
-              max-width: 91rem;
-              left: 233px;
-            }
+            left: 226px;
+            
             @include media-breakpoint-down(3xl) {
               max-width: 69rem;
-              left: 11px;
+              left: 38px;
             }
             @include media-breakpoint-down(xxl) {
               max-width: 68rem;
