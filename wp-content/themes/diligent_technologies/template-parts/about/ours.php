@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-ours">
+<section class="ours-section">
     <div class="container">
         <div class="inner card">
             <span class="border-animation-card"> </span>

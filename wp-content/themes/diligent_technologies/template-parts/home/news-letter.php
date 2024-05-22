@@ -1,5 +1,5 @@
 <!-- team Section start here-->
-<section class="section-news-letter ">
+<section class="news-letter-section">
     <div class="container card">
         <span class="border-animation-card"> </span>
         <span class="border-animation-card"> </span>
@@ -19,35 +19,14 @@
                 </div>
             </div>
             <div class="col-lg-8 ">
-                <div class="news-letter-form">
+                <div class="form-wrapper">
                     <form action="">
-                        <input type="text" name="name" required="">
-                        <input type="text" name="email" required="">
+                        <input type="text" name="name" placeholder="Your email" required="">
+                        <input type="text" name="email" placeholder="Describe your project" required="">
                         <h3>What you need <span class="mark"><img
                                     src="<?php echo get_template_directory_uri() . '/images/marks.PNG'?>"
                                     alt="img"></span></h3>
                         <div class="PillList-items">
-                            <!-- <a class="news-letter-pill btn rounded-pill ">
-                                Ui/Ux
-                            </a>
-
-                            <a class="news-letter-pill btn rounded-pill ">
-                                SEO
-                            </a>
-                            <a class="news-letter-pill btn rounded-pill ">
-                                Webflow implementations
-                            </a>
-                            <a class="news-letter-pill btn rounded-pill ">
-                                Web Development
-                            </a>
-                            <a class="news-letter-pill btn rounded-pill ">
-                                Shopify
-                            </a>
-                            <a class="news-letter-pill btn rounded-pill ">
-                                Project Management
-                            </a> -->
-
-
                             <label class="PillList-item">
                                 <input type="checkbox" name="feature" value="ui">
                                 <span class="PillList-label">Ui/Ux
@@ -96,7 +75,7 @@
                                 </span>
                             </label>
                         </div>
-                        <div class="charter-form-btn">
+                        <div class="form-cta">
                             <input type="submit" value="Get In Touch" class="submit_btn">
                         </div>
                     </form>

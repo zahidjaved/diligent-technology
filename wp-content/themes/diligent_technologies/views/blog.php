@@ -7,7 +7,7 @@
 
 <?php echo get_template_part('template-parts/blog/hero' , 'page') ?>
 <?php echo get_template_part('template-parts/blog/communication' , 'page') ?>
-<?php echo get_template_part('template-parts/blog/latest-blogs' , 'page') ?>
+<?php echo get_template_part('template-parts/blog/post-listing' , 'page') ?>
 <?php echo get_template_part('template-parts/blog/news-letter' , 'page') ?>
 
 

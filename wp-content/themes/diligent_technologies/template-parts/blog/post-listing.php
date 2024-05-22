@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-latest">
+<section class="section-post-listing">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
+                <div class=" post-card">
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
@@ -19,7 +19,7 @@
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/blogss.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -32,21 +32,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/fingers.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -59,21 +59,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/designn.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -86,21 +86,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/crack.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -113,21 +113,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/mavfk.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -140,21 +140,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/touch.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -167,21 +167,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card ">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/designn.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -194,21 +194,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card ">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/crack.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -221,21 +221,21 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xxl-4">
-                <div class="card">
-                <span class="border-animation-card"> </span>
+                <div class="post-card ">
+                    <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <span class="border-animation-card"> </span>
                     <div class="media">
                         <img src="<?php echo get_template_directory_uri() . '/images/fingers.PNG'?>" alt="img">
                     </div>
-                    <div class="card-date">
+                    <div class="meta-data">
                         <h3>The Rise of AI</h3>
                         <h6>12 May 2024</h6>
                     </div>
@@ -248,15 +248,16 @@
                             investments,
                             and personalize financial services for customers.</p>
                     </div>
-                    <div class="card-cta-btn">
+                    <div class="list-cta-btn">
                         <a class="post-cta" href="">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-12">
-                <div class="read-more-cta-btn">
-                    <a class="view-more-cta" href="">See More<span class="btn-svg"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="37" height="36" viewBox="0 0 37 36" fill="none">
+                <div class="list-more-cta-btn">
+                    <a class="view-more-cta" href="">See More<span class="btn-svg"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36"
+                                fill="none">
 
                                 <g clip-path="url(#clip0_599_1367)">
                                     <path

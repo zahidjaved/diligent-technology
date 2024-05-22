@@ -49,7 +49,7 @@
         <div class="row">
             <div class="col-lg-5 ">
                 <div class="media">
-                    <img src="<?php echo get_template_directory_uri() . '/images/footer-logo.PNG'?>" alt="img">
+                   <a href=""> <img src="<?php echo get_template_directory_uri() . '/images/footer-logo.PNG'?>" alt="img"></a>
                     <div class="description">
                         <p>Among the most trusted staff augmentation companies to provide you with unrivaled IT and
                             software

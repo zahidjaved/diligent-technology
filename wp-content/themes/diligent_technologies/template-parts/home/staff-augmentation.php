@@ -1,5 +1,5 @@
 <!-- staff-augmentation Section start here-->
-<section class="section-staff-augmentation">
+<section class="staff-augmentation-section">
     <div class="container">
         <div class="row">
             <div class="col-12">

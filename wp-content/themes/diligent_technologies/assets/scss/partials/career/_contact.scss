@@ -1,5 +1,5 @@
 // contact section scss
-.section-contact {
+.contact-section {
   margin-bottom: 150px;
   @include media-breakpoint-down(md) {
     margin-bottom: 45px;
@@ -20,7 +20,7 @@
       margin-bottom: 46px;
     }
   }
-  
+
   .inner {
     padding: 70px 54px 60px 54px;
     background: $footer-bg;
@@ -41,7 +41,7 @@
         @include media-breakpoint-down(md) {
           flex-direction: column;
         }
-        .fields {
+        .input-group {
           width: 32.3%;
 
           @include media-breakpoint-down(lg) {
@@ -67,6 +67,9 @@
           border: none;
           margin-left: auto;
           transition: all 0.3s ease-in-out;
+          font-weight: $fw-semi-bold;
+          font-size: 16px;
+          line-height: 40px;
 
           &:hover {
             background: $fill-black-faded;
@@ -74,9 +77,32 @@
             border: 1px solid $brand-primary;
           }
         }
+
+
+        
+
+
       }
 
-      .full-width {
+      input[type="checkbox"] {
+        background: transparent;
+        cursor: pointer;
+        border: 1px solid $border-filll !important;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+        line-height: 23px;
+       
+      }
+      input[type='checkbox']:checked:after {
+        content: ' \2713';
+        color: $brand-primary;
+       
+      }
+
+      .form-group {
         input {
           padding: 15px 24px;
           width: 100%;
@@ -89,6 +115,21 @@
             outline: none;
           }
         }
+      }
+
+      .file-uploaded {
+        padding: 15px 24px;
+        width: 100%;
+        border-radius: 16px;
+        margin-bottom: 24px;
+        border: none;
+        background: $field-fill;
+        cursor: pointer;
+        font-family: $font-family-base;
+        font-size: 16px;
+        font-weight: $fw-regular;
+        line-height: 30px;
+        color: $border-filll;
       }
       h3 {
         margin-bottom: 24px;

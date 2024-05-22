@@ -1,6 +1,6 @@
 // home -staff-augmentation-section scss
 
-.section-staff-augmentation {
+.staff-augmentation-section {
   background: $bg-fill;
   padding-bottom: 150px;
   overflow: hidden;
@@ -44,7 +44,7 @@
           height: 52px;
           border-radius: 50%;
           background: $brand-primary;
-          transform: translateY(-50%);
+          transform: translateY( -50%);
           z-index: 2;
           border: 15px solid #5d5e1e;
           text-align: center;

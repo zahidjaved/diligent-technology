@@ -1,5 +1,5 @@
 <!-- team Section start here-->
-<section class="section-pricing">
+<section class="pricing-section">
     <div class="container">
         <div class="row">
             <div class="col-xl-4">
@@ -20,7 +20,7 @@
                         <li>One to many fully dedicated resource(s)</li>
                         <li>A Project Manager to oversee the assignment. </li>
                     </ul>
-                    <a class="hero-cta-icon" href="">Get Started <span class="btn-svg"><svg
+                    <a class="pricing-cta-icon" href="">Get Started <span class="btn-svg"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36"
                                 fill="none">
                                 <g clip-path="url(#clip0_599_1367)">
@@ -47,11 +47,11 @@
                                 services that meet the unique requirements .</p>
                         </div>
                         <div class="pricing-plan">
-                            <div class="estimate">
+                            <div class="meta">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="estimate">
+                            <div class="meta">
                                 <p><span class="colored-fill">1 week</span></p>
                                 <p><span class="colored-fill">$1,500</span></p>
                             </div>
@@ -66,11 +66,11 @@
                                 services that meet the unique requirements .</p>
                         </div>
                         <div class="pricing-plan">
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p><span class="colored-fill">1 week</span></p>
                                 <p><span class="colored-fill">$1,500</span></p>
                             </div>
@@ -85,11 +85,11 @@
                                 services that meet the unique requirements .</p>
                         </div>
                         <div class="pricing-plan">
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p><span class="colored-fill">1 week</span></p>
                                 <p><span class="colored-fill">$1,500</span></p>
                             </div>
@@ -104,11 +104,11 @@
                                 services that meet the unique requirements .</p>
                         </div>
                         <div class="pricing-plan">
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p><span class="colored-fill">1 week</span></p>
                                 <p><span class="colored-fill">$1,500</span></p>
                             </div>
@@ -123,11 +123,11 @@
                                 services that meet the unique requirements .</p>
                         </div>
                         <div class="pricing-plan">
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p><span class="colored-fill">1 week</span></p>
                                 <p><span class="colored-fill">$1,500</span></p>
                             </div>
@@ -142,11 +142,11 @@
                                 services that meet the unique requirements .</p>
                         </div>
                         <div class="pricing-plan">
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p>Estimated time</p>
                                 <p>Price</p>
                             </div>
-                            <div class="pricing-estimate">
+                            <div class="meta">
                                 <p><span class="colored-fill">1 week</span></p>
                                 <p><span class="colored-fill">$1,500</span></p>
                             </div>

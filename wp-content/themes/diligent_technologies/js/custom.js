@@ -102,7 +102,7 @@ const tl = gsap.timeline({
     ease: "none",
   },
   scrollTrigger: {
-    trigger: ".section-staff-augmentation",
+    trigger: ".staff-augmentation-section",
     pin: true,
     start: "top top",
     end: () => `+=${slider.clientWidth - window.innerWidth}`,
@@ -123,6 +123,7 @@ function updateProgress() {
   
   // Account for the circle's width
   const circlePosition = progressWidth * (progressLine.offsetWidth - progressCircle.offsetWidth);
+
 
   gsap.set(progressLine, { scaleX: progressWidth });
   gsap.set(progressCircle, { x: circlePosition });

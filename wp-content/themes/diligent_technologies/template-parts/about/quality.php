@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-quality">
+<section class="quality-section">
     <div class="container">
         <div class="row">
             <div class="col-12">

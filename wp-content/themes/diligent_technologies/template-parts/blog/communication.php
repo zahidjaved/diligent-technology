@@ -1,5 +1,5 @@
 <!-- section-communication Section start here-->
-<section class="section-communication">
+<section class="communication-section">
     <div class="container">
         <div class="inner card">
             <span class="border-animation-card"> </span>

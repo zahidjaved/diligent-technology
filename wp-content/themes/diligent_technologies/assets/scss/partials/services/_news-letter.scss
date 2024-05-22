@@ -1,6 +1,6 @@
 //  news-letter section scss
 
-.news-letter {
+.cta-section {
   padding-bottom: 150px;
   @include media-breakpoint-down(md) {
     padding-bottom: 45px;
@@ -27,7 +27,7 @@
       padding: 34px 20px 39px 20px;
     }
 
-    .contact-description {
+    .cta-detail {
       width: 100%;
       max-width: 723px;
       @include media-breakpoint-down(xl) {

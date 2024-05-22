@@ -201,6 +201,7 @@
 
   @include media-breakpoint-down(lg) {
     padding: 32px 30px;
+    top: 2px;
 
     .navbar-toggler {
       text-decoration: none;
@@ -232,8 +233,8 @@
   }
 
   @include media-breakpoint-down(md) {
-    padding: 3px 30px;
-    top: 35px;
+    padding: 3px 20px;
+    top: 8px;
   }
 
   @include media-breakpoint-down(sm) {

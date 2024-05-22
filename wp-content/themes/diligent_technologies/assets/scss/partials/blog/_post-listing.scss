@@ -1,5 +1,5 @@
 // latest-blogs section scss
-.section-latest {
+.section-post-listing {
   padding-bottom: 90px;
   @include media-breakpoint-down(md) {
     padding-bottom: 55px;
@@ -28,6 +28,7 @@
     }
   }
 
+  // its general card styling specific for this section
   .card {
     padding: 10px 11px 8px 11px;
     width: 100%;
@@ -38,10 +39,14 @@
       margin: 0 auto;
       margin-bottom: 40px;
     }
+  }
+
+  .post-card {
+    @extend .card;
 
     .media {
       width: 100%;
-      max-width: 372px;
+      max-width: 387px;
       margin: 0 auto;
       margin-bottom: 18px;
       img {
@@ -49,7 +54,7 @@
       }
     }
 
-    .card-date {
+    .meta-data {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -75,7 +80,7 @@
       }
     }
 
-    .card-cta-btn {
+    .list-cta-btn {
       max-width: 100%;
 
       .post-cta {
@@ -84,7 +89,7 @@
     }
   }
 
-  .read-more-cta-btn {
+  .list-more-cta-btn {
     display: flex;
     justify-content: flex-end;
 

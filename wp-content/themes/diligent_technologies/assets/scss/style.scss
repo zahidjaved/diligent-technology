@@ -10,7 +10,7 @@
 // home
 @import 'partials/home-page/_home-hero';
 @import 'partials/home-page/_about-us';
-@import 'partials/home-page/_team-section';
+@import 'partials/home-page/_leadership.scss';
 @import 'partials/home-page/_staff-augmentation';
 @import 'partials/home-page/_pricing';
 @import 'partials/home-page/_news-letter';
@@ -26,14 +26,14 @@
 @import 'partials/about-page/_ours';
 @import 'partials/about-page/_quality';
 @import 'partials/about-page/_togther';
-@import 'partials/about-page/_team';
+@import 'partials/about-page/_our-team';
 
 // blog-page
 @import 'partials/blog/communication';
-@import 'partials/blog/_latest-blogs';
+@import 'partials/blog/_post-listing';
 
 // career-page
-@import 'partials/career/_hero-gallery';
+@import 'partials/career/_shape-section';
 @import 'partials/career/_why-us';
 @import 'partials/career/_contact';
 

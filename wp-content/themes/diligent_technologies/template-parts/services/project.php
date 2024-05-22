@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-project">
+<section class="project-section">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -50,7 +50,7 @@
             </div>
 
             <div class="col-md-6">
-                <div class="boxx">
+                <div class="project-gallery">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() . '/images/uae.PNG'?>" alt="img">
                         <div class="overlay">

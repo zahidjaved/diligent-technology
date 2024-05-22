@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-team">
+<section class="our-team">
     <div class="container">
         <div class="inner ">
             <div class="row">
@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-12">
                     <div class="wrapper">
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/danish.PNG'?>" alt="img">
                             </div>
@@ -22,7 +22,7 @@
                                 <p>Human Resource Manager</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/hamza.PNG'?>" alt="img">
                             </div>
@@ -31,7 +31,7 @@
                                 <p>front end lead</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/raheel.PNG'?>" alt="img">
                             </div>
@@ -40,7 +40,7 @@
                                 <p>Ui/Ux Desinger</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/hannan.PNG'?>" alt="img">
                             </div>
@@ -49,7 +49,7 @@
                                 <p>CIO</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/karamat.PNG'?>" alt="img">
                             </div>
@@ -58,7 +58,7 @@
                                 <p>Ui/Ux Desinger</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/raheel.PNG'?>" alt="img">
                             </div>
@@ -67,7 +67,7 @@
                                 <p>Ui/Ux Desinger</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/umair.PNG'?>" alt="img">
                             </div>
@@ -76,7 +76,7 @@
                                 <p>Project manager</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/sadia.PNG'?>" alt="img">
                             </div>
@@ -85,7 +85,7 @@
                                 <p>Ui/Ux Desinger</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/karamatt.PNG'?>" alt="img">
                             </div>
@@ -94,7 +94,7 @@
                                 <p>front end lead</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/raheel.PNG'?>" alt="img">
                             </div>
@@ -103,7 +103,7 @@
                                 <p>Ui/Ux Desinger</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/raheel.PNG'?>" alt="img">
                             </div>
@@ -112,7 +112,7 @@
                                 <p>Ui/Ux Desinger</p>
                             </div>
                         </div>
-                        <div class="team-card">
+                        <div class="member">
                             <div class="media">
                                 <img src="<?php echo get_template_directory_uri() . '/images/umair.PNG'?>" alt="img">
                             </div>

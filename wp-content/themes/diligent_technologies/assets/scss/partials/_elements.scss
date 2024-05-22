@@ -166,7 +166,7 @@ h1 {
   }
   @include media-breakpoint-down(md) {
     text-align: center;
-    @include font-format(38px, 58px);
+    @include font-format(38px, 1.2);
   }
 }
 
@@ -185,7 +185,7 @@ h2 {
     @include font-format(36px, 54px);
   }
   @include media-breakpoint-down(sm) {
-    @include font-format(32px, 51px);
+    @include font-format(28px, 1.2);
   }
 }
 

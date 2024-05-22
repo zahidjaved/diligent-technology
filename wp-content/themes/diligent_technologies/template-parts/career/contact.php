@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-contact">
+<section class="contact-section">
     <div class="container">
         <div class="col-12">
             <div class="sec-head">
@@ -19,18 +19,18 @@
                 <div class="col-12">
                     <div class="data-form">
                         <from action="#">
-                            <div class="wrapper full-width">
-                                <div class="fields ">
+                            <div class="wrapper form-group">
+                                <div class="input-group ">
                                     <input type="text" name="name" placeholder="Full name" required="">
                                 </div>
-                                <div class="fields">
+                                <div class="input-group">
                                     <input type="text" name="email" placeholder="Your email" required="">
                                 </div>
-                                <div class="fields">
+                                <div class="input-group">
                                     <input type="text" name="phone" placeholder="Phone no" required="">
                                 </div>
                             </div>
-                            <div class="field full-width">
+                            <div class="field form-group">
                                 <input type="text" name="phone" placeholder="Position you are applying on" required="">
                             </div>
                             <h3>Your Employment Status</h3>
@@ -59,8 +59,9 @@
                                 </label>
                             </div>
 
-                            <div class="field full-width">
-                                <input type="file" id="file-upload" name="file" placeholder=" ">
+                            <div class="field form-group">
+                                <label for="file-upload" class="file-uploaded">Choose File
+                                <input type="file" id="file-upload" name="file" class="d-none" placeholder=" "></label>
                             </div>
                             <div class="submit-btn">
                                 <input type="submit" value="Submit Form" class="submit_btn">

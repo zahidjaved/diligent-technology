@@ -1,5 +1,5 @@
 <!-- About Us Section start here-->
-<section class="section-about-us">
+<section class="about-us-section">
     <div class="container">
         <div class="row">
             <div class="col-12">

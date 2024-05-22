@@ -1,5 +1,5 @@
 // home pricing section scss
-.section-pricing {
+.pricing-section{
   background-image: url(../../images/Illustrations.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +48,8 @@
       }
     }
 
-    .hero-cta-icon {
+    .pricing-cta-icon {
+      @include site-btn(transparent, 200px, $brand-secondary);
       @include media-breakpoint-down(sm) {
         margin: 0 auto;
       }
@@ -113,7 +114,7 @@
       align-items: center;
       justify-content: space-between;
 
-      .pricing-estimate {
+      .meta {
         p {
           margin-bottom: 8px;
         }

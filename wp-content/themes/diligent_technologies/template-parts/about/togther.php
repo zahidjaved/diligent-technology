@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-togather">
+<section class="togather-section">
     <div class="container">
         <div class="inner ">
             <div class="row">

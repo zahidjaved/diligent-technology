@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="section-services">
+<section class="services-section">
     <div class="container">
         <div class="row">
             <div class="col-12">

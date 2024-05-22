@@ -1,5 +1,5 @@
 <!-- Hero Section start here-->
-<section class="hero">
+<section class="page-hero">
     <div class="container">
         <div class="row">
             <div class="col-12">
